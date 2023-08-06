@@ -22,7 +22,7 @@
     border-bottom: 2px solid var(--main-color);
 }
 .header{
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("kulliner.jpg");
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("resources/assets/kulliner.jpg");
    width: 100%;
    height: 100vh;
    background-position: center;
