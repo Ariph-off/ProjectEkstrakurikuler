@@ -124,11 +124,32 @@
             opacity: 0;
         }
 
+        .content {
+            padding-top: 100px;
+            padding-bottom: 100px;
+            width: 100%;
+            background-color: #f0b30f;
+        }
+
+        .carousel{
+            border: 10px solid white;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .carousel img{
+            border-radius: 40px;
+        }
+
+
         @media screen and (max-width: 425px) {
-            .midlle{
+            .midlle {
                 height: 40vh;
                 margin-top: 180px;
             }
+
             .midlle h1 {
                 font-size: 45px;
             }
@@ -140,7 +161,12 @@
             .text-warning {
                 font-size: 15px;
             }
+
+            .carousel{
+                width: 80%;
+            }
         }
+
 
         @media screen and (max-width: 320px) {
             .midlle h1 {
@@ -153,6 +179,10 @@
 
             .text-warning {
                 font-size: 15px;
+            }
+
+            .carousel{
+                width: 80%;
             }
         }
     </style>
@@ -175,12 +205,30 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link act" aria-current="page" href="">Login (admin)</a>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active" aria-current="page" href="#">Beranda</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.instagram.com/kuliner.nusantara/">Hubungi Kami</a>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">Ekstra</a>
                             </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">Pembina</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">Prestasi</a>
+                            </li>
+                            <li class="nav-item dropdown mx-3">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Lainnya
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Login (admin)</a></li>
+                                    <li><a class="dropdown-item" href="#">Hubungi Kami</a></li>
+                                    <li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -188,7 +236,7 @@
             <!--navbar ends here -->
             <div class="midlle">
                 <h1 class="tulisan text-white fw-bold display-3">Membantu anda menemukan <br> <span
-                        class="theme-text">ekstra
+                        class="theme-text">bakat ekstra
                         yang lebih baik.</span></h1>
 
             </div>
@@ -203,9 +251,157 @@
             </path> --}}
         </svg>
     </section>
+    <section class="content d-flex justify-content-center">
+        <div id="carouselExampleDark" class="carousel carousel-light slide col-lg-6">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7"
+                    aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8"
+                    aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="9"
+                    aria-label="Slide 10"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="10"
+                    aria-label="Slide 11"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="11"
+                    aria-label="Slide 12"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="12"
+                    aria-label="Slide 13"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="13"
+                    aria-label="Slide 14"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="14"
+                    aria-label="Slide 0"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/remas_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>REMAJA MASJID</h5>
+                        <p>Mari Brgabung dengan REMAS SMAKENSA</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/pmr_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PMR</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/da_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/da_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/pmr_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PMR</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/da_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/da_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/da_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/da_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/pmr_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PMR</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/da_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/da_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/da_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/pmr_landing.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PMR</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
 
     <footer class="bg-dark text-white pt-4 pb-4">
-        <div class="content text-center text-md-left">
+        <div class="futer text-center text-md-left">
             <div class="row text-center text-md-left">
                 <div class="col-md-3 col-lg3 col-xl-3 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-light-emphasis">
