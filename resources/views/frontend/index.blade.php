@@ -6,6 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -24,6 +28,7 @@
         body {
             width: 100%;
             height: 100vh;
+            background-color: #272829;
         }
 
         :root {
@@ -45,7 +50,7 @@
         }
 
         .header {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/extraa.png");
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/background.png");
             width: 100%;
             height: 100vh;
             background-position: center;
@@ -126,7 +131,7 @@
             padding-top: 100px;
             padding-bottom: 100px;
             width: 100%;
-            background-color: #f0b30f;
+            background-color: #272829;
         }
 
         /* .carousel {
@@ -159,7 +164,9 @@
         }
 
         .card {
-            background-color: transparent scroll-snap-align: start;
+            border: none;
+            background-color: transparent;
+            scroll-snap-align: start;
             border-radius: 30px;
             min-height: 550px;
             min-width: 850px;
@@ -168,51 +175,33 @@
             justify-content: center;
         }
 
-        .card:active {}
-
         .carrousel img {
             height: 550px;
             width: 850px;
             border-radius: 30px;
         }
 
-        .loader {
-            position: relative;
+        .content img:hover {
+            transform: scale(0.9);
+            border-radius: 30px;
+            transition: 0.6s;
+            background-image: linear-gradient(to bottom, red, blue);
         }
 
-        .loader span {
-            position: absolute;
-            color: #fff;
-            transform: translate(-50%, -50%);
-            font-size: 38px;
-            letter-spacing: 5px;
+        .content .img:active {
+            border-radius: 30px;
         }
 
-        .loader span:nth-child(1) {
-            color: transparent;
-            -webkit-text-stroke: 0.3px rgb(0, 57, 244);
+        .futer {
+            background-color: #272829;
         }
 
-        .loader span:nth-child(2) {
-            color: rgb(0, 4, 255);
-            -webkit-text-stroke: 1px rgb(17, 0, 255);
-            animation: uiverse723 3s ease-in-out infinite;
+        #btn-back-to-top {
+            position: fixed;
+            bottom: 80px;
+            right: 60px;
+            display: none;
         }
-
-        @keyframes uiverse723 {
-
-            0%,
-            100% {
-                clip-path: polygon(0% 45%, 15% 44%, 32% 50%,
-                        54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
-            }
-
-            50% {
-                clip-path: polygon(0% 60%, 16% 65%, 34% 66%,
-                        51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
-            }
-        }
-
 
         @media screen and (max-width: 425px) {
             .midlle {
@@ -245,6 +234,10 @@
                 height: 220px;
                 width: 320px;
                 border-radius: 30px;
+            }
+
+            .futer .text-warning {
+                font-size: 10px;
             }
         }
 
@@ -288,8 +281,9 @@
     <section class="header">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark ">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"> &nbsp;<strong>EKSTRA</strong>SMAKENSA</a>
+                <div class="menu container-fluid">
+                    <a class="navbar-brand" href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        &nbsp;<strong>EKSTRA</strong>SMAKENSA</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -326,7 +320,6 @@
                         </ul>
                     </div>
                 </div>
-
             </nav>
             <!--navbar ends here -->
             <div class="midlle" id="home">
@@ -340,61 +333,59 @@
                 </button>
             </div>
         </div>
-        {{-- <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#f0b30f" fill-opacity="1"
-                d="M0,128L60,149.3C120,171,240,213,360,218.7C480,224,600,192,720,197.3C840,203,960,245,1080,234.7C1200,224,1320,160,1380,128L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
-            </path> --}}
-        </svg>
     </section>
-    <section class="content d-flex justify-content-center" id="content">
+    <section class="content d-flex justify-content-center shadow-lg" id="content">
         <div class="carrousel">
             <article class="card">
-                <img src="img/da_landing.jpg" alt="">
+                <img class="img shadow" src="img/da_landing.jpg" alt="">
             </article>
             <article class="card">
-                <img src="img/remas_landing.jpg" alt="">
+                <img class="img shadow" src="img/remas_landing.jpg" alt="">
             </article>
             <article class="card">
-                <img src="img/pmr_landing.jpg" alt="">
+                <img class="img shadow" src="img/pmr_landing.jpg" alt="">
             </article>
             <article class="card">
-                <img src="img/pmr_landing.jpg" alt="">
+                <img class="img shadow" src="img/pmr_landing.jpg" alt="">
             </article>
             <article class="card">
-                <img src="img/pmr_landing.jpg" alt="">
+                <img class="img shadow" src="img/pmr_landing.jpg" alt="">
             </article>
             <article class="card">
-                <img src="img/pmr_landing.jpg" alt="">
+                <img class="img shadow" src="img/pmr_landing.jpg" alt="">
             </article>
             <article class="card">
-                <img src="img/pmr_landing.jpg" alt="">
+                <img class="img shadow" src="img/pmr_landing.jpg" alt="">
             </article>
             <article class="card">
-                <img src="img/pmr_landing.jpg" alt="">
+                <img class="img shadow" src="img/pmr_landing.jpg" alt="">
             </article>
             <article class="card">
-                <img src="img/pmr_landing.jpg" alt="">
+                <img class="img shadow" src="img/pmr_landing.jpg" alt="">
             </article>
             <article class="card">
-                <img src="img/pmr_landing.jpg" alt="">
+                <img class="img shadow" src="img/pmr_landing.jpg" alt="">
             </article>
             <article class="card">
-                <img src="img/pmr_landing.jpg" alt="">
+                <img class="img shadow" src="img/pmr_landing.jpg" alt="">
             </article>
             <article class="card">
-                <img src="img/pmr_landing.jpg" alt="">
+                <img class="img shadow" src="img/pmr_landing.jpg" alt="">
             </article>
             <article class="card">
-                <img src="img/pmr_landing.jpg" alt="">
+                <img class="img shadow" src="img/pmr_landing.jpg" alt="">
             </article>
             <article class="card">
-                <img src="img/pmr_landing.jpg" alt="">
+                <img class="img shadow" src="img/pmr_landing.jpg" alt="">
             </article>
         </div>
+        <button type="button" class="btn btn-warning btn-floating rounded-md shadow btn-lg" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
     </section>
 
-    <footer class="bg-dark text-white pt-4 pb-4">
-        <div class="futer text-center text-md-left">
+    <footer class="text-white pt-4 pb-4">
+        <div class="futer text-center text-md-left shadow-lg">
             <div class="row text-center text-md-left">
                 <div class="col-md-3 col-lg3 col-xl-3 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-light-emphasis">
@@ -420,16 +411,33 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    <script>
+        //Get the button
+        let mybutton = document.getElementById("btn-back-to-top");
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
-    </script>
-    -->
 </body>
 
 </html>
