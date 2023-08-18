@@ -40,6 +40,13 @@
                   <i class="fa-solid fa-book-atlas" style="color: #ffffff;"></i>
                   {{-- <i class="nav-icon far fa-book-atlas"></i> --}}
                   <p>
+                      Data User
+                  </p>
+              </a>
+              <a href="" class="nav-link">
+                  <i class="fa-solid fa-book-atlas" style="color: #ffffff;"></i>
+                  {{-- <i class="nav-icon far fa-book-atlas"></i> --}}
+                  <p>
                       Daftar Hadir
                   </p>
               </a>
@@ -77,7 +84,7 @@
                   <p>
                       Logout
                   </p>
-              </a>
+              </a>  
 
               {{-- <li class="nav-item menu-open">
             <a href="#" class="nav-link active">
