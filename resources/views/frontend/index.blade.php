@@ -181,6 +181,17 @@
             border-radius: 30px;
         }
 
+        .about img{
+            border-radius: 30px;
+        }
+
+        .about img:hover{
+            border-radius: 30px;
+            transform: scale(1.1);
+            transition: 0.7s;
+            box-shadow: black 2px 2px 10px 0px;
+        }
+
         .content img:hover {
             transform: scale(0.9);
             border-radius: 30px;
@@ -270,6 +281,30 @@
                 border-radius: 30px;
             }
         }
+        /* awal tentang  */
+       
+       
+       
+       .about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #272829; 
+       
+       }
+       .row-about {
+        background-color: #DFCCFB;
+        border-radius: 50px;
+       }
+       .row-about  h1 {
+        margin-left: 250px;
+       }
+       .row-about  p {
+        padding: 30px;
+        text-align: center;
+
+       }
+
+
     </style>
 
 
@@ -334,6 +369,26 @@
             </div>
         </div>
     </section>
+    <!-- awal tentang  -->
+    
+<section id="about" class="about">
+    <div class="container">
+    <div class="row-about d-flex align-items-center">
+       <div class="col-sm-4">  <img src="img/coba.jpg" height="300px" width="400px" > </div>
+       <div class="col-sm-8">  <h1 class="display-4">ExkulKuy</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui consequuntur eius,
+    <br> saepe dolorum explicabo reprehenderit placeat dolores. 
+   <br> Quam repellat sapiente rerum voluptate, adipisci accusantium vero quaerat ipsa. Illum, reiciendis accusamus?</p>
+   <!-- <hr class="my-8">
+   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+   <a class="btn btn-primary btn-lg rounded-pill" href="#" role="button">Learn more</a></div> -->
+   </div>
+  </div> 
+  </div>
+</section>
+
+
+    <!-- akhir tentang -->
     <section class="content d-flex justify-content-center shadow-lg" id="content">
         <div class="carrousel">
             <article class="card">
