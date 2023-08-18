@@ -134,6 +134,27 @@
             background-color: #272829;
         }
 
+        .jumbotron {
+            background-color: #272829;
+            width: 100%;
+            height: 100vh;
+            margin-top: 20px;
+            height: 500px;
+            display: flex;
+        }
+
+        .jumbotron h1,
+        p {
+            color: antiquewhite;
+            margin-top: 80px;
+        }
+
+        .jumbotron img {
+            width: 600px;
+            height: 350px;
+            margin-top: 100px;
+        }
+
         /* .carousel {
             border: 10px solid white;
             border-radius: 50px;
@@ -181,11 +202,11 @@
             border-radius: 30px;
         }
 
-        .about img{
+        .about img {
             border-radius: 30px;
         }
 
-        .about img:hover{
+        .about img:hover {
             border-radius: 30px;
             transform: scale(1.1);
             transition: 0.7s;
@@ -236,6 +257,16 @@
                 width: 80%;
             }
 
+            .jumbotron{
+                width: 100vh;
+            }
+
+            .jumbotron img {
+            width: 350px;
+            height: 150px;
+            margin-top: 100px;
+        }
+
             .card {
                 min-height: 220px;
                 min-width: 320px;
@@ -281,30 +312,32 @@
                 border-radius: 30px;
             }
         }
+
         /* awal tentang  */
-       
-       
-       
-       .about {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        background-color: #272829; 
-       
-       }
-       .row-about {
-        background-color: #DFCCFB;
-        border-radius: 50px;
-       }
-       .row-about  h1 {
-        margin-left: 250px;
-       }
-       .row-about  p {
-        padding: 30px;
-        text-align: center;
-
-       }
 
 
+
+        .about {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: #272829;
+
+        }
+
+        .row-about {
+            background-color: #DFCCFB;
+            border-radius: 50px;
+        }
+
+        .row-about h1 {
+            margin-left: 250px;
+        }
+
+        .row-about p {
+            padding: 30px;
+            text-align: center;
+
+        }
     </style>
 
 
@@ -330,10 +363,10 @@
                                 <a class="nav-link active" aria-current="page" href="#home">Beranda</a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link" href="#content">Tentang</a>
+                                <a class="nav-link" href="#about">Tentang</a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link" href="#">Ekstra</a>
+                                <a class="nav-link" href="#content">Ekstra</a>
                             </li>
                             <li class="nav-item mx-3">
                                 <a class="nav-link" href="#">Pembina</a>
@@ -370,22 +403,25 @@
         </div>
     </section>
     <!-- awal tentang  -->
-    
-<section id="about" class="about">
-    <div class="container">
-    <div class="row-about d-flex align-items-center">
-       <div class="col-sm-4">  <img src="img/coba.jpg" height="300px" width="400px" > </div>
-       <div class="col-sm-8">  <h1 class="display-4">ExkulKuy</h1>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui consequuntur eius,
-    <br> saepe dolorum explicabo reprehenderit placeat dolores. 
-   <br> Quam repellat sapiente rerum voluptate, adipisci accusantium vero quaerat ipsa. Illum, reiciendis accusamus?</p>
-   <!-- <hr class="my-8">
-   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-   <a class="btn btn-primary btn-lg rounded-pill" href="#" role="button">Learn more</a></div> -->
-   </div>
-  </div> 
-  </div>
-</section>
+
+    <div class="jumbotron">
+        <div class="container" id="about">
+            <div class="row d-flex align-items-center">
+                <div class="container"></div>
+                <div class="col-sm-6"><img src="img/smkn1bws.png" alt=""> </div>
+                <div class="col-sm-6">
+                    <h1 class="display-4">Wattpad</h1>
+                    <p class="lead">Wattpad adalah sebuah platform daring yang memungkinkan penggunanya untuk membaca
+                        dan menulis cerita.
+                        Didirikan oleh Allen Lau dan Ivan Yuen, platform ini bertujuan untuk membuat komunitas membaca,
+                        serta menghapus penghalang antara pembaca dan penulis.</p>
+                    <!-- <hr class="my-8">
+         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+         <a class="btn btn-primary btn-lg rounded-pill" href="#" role="button">Learn more</a></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- akhir tentang -->
