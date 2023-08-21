@@ -33,3 +33,4 @@ Route::get('/login', [LoginController::class, 'index'])->name('login');
 Route::post('doLogin', function () {
     return view('backend.home');
 });
+Route::get('/logout',[LoginController::class,'logout'])->name('logout');

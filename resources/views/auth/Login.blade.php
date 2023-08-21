@@ -92,6 +92,8 @@
     <script src="{{ asset('lteplugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <!-- AdminLTE App -->
     <script src="{{ asset('ltedist/js/adminlte.min.js ') }}"></script>
+
+
 </body>
 
 </html>

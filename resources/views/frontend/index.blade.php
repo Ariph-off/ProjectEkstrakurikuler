@@ -134,6 +134,27 @@
             background-color: #272829;
         }
 
+        .jumbotron {
+            background-color: #272829;
+            width: 100%;
+            height: 100vh;
+            margin-top: 20px;
+            height: 500px;
+            display: flex;
+        }
+
+        .jumbotron h1,
+        p {
+            color: antiquewhite;
+            margin-top: 80px;
+        }
+
+        .jumbotron img {
+            width: 600px;
+            height: 350px;
+            margin-top: 100px;
+        }
+
         /* .carousel {
             border: 10px solid white;
             border-radius: 50px;
@@ -181,6 +202,17 @@
             border-radius: 30px;
         }
 
+        .about img {
+            border-radius: 30px;
+        }
+
+        .about img:hover {
+            border-radius: 30px;
+            transform: scale(1.1);
+            transition: 0.7s;
+            box-shadow: black 2px 2px 10px 0px;
+        }
+
         .content img:hover {
             transform: scale(0.9);
             border-radius: 30px;
@@ -224,6 +256,16 @@
             .carousel {
                 width: 80%;
             }
+
+            .jumbotron{
+                width: 100vh;
+            }
+
+            .jumbotron img {
+            width: 350px;
+            height: 150px;
+            margin-top: 100px;
+        }
 
             .card {
                 min-height: 220px;
@@ -270,6 +312,32 @@
                 border-radius: 30px;
             }
         }
+
+        /* awal tentang  */
+
+
+
+        .about {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: #272829;
+
+        }
+
+        .row-about {
+            background-color: #DFCCFB;
+            border-radius: 50px;
+        }
+
+        .row-about h1 {
+            margin-left: 250px;
+        }
+
+        .row-about p {
+            padding: 30px;
+            text-align: center;
+
+        }
     </style>
 
 
@@ -295,10 +363,10 @@
                                 <a class="nav-link active" aria-current="page" href="#home">Beranda</a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link" href="#content">Tentang</a>
+                                <a class="nav-link" href="#about">Tentang</a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link" href="#">Ekstra</a>
+                                <a class="nav-link" href="#content">Ekstra</a>
                             </li>
                             <li class="nav-item mx-3">
                                 <a class="nav-link" href="#">Pembina</a>
@@ -334,6 +402,29 @@
             </div>
         </div>
     </section>
+    <!-- awal tentang  -->
+
+    <div class="jumbotron">
+        <div class="container" id="about">
+            <div class="row d-flex align-items-center">
+                <div class="container"></div>
+                <div class="col-sm-6"><img src="img/smkn1bws.png" alt=""> </div>
+                <div class="col-sm-6">
+                    <h1 class="display-4">Wattpad</h1>
+                    <p class="lead">Wattpad adalah sebuah platform daring yang memungkinkan penggunanya untuk membaca
+                        dan menulis cerita.
+                        Didirikan oleh Allen Lau dan Ivan Yuen, platform ini bertujuan untuk membuat komunitas membaca,
+                        serta menghapus penghalang antara pembaca dan penulis.</p>
+                    <!-- <hr class="my-8">
+         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+         <a class="btn btn-primary btn-lg rounded-pill" href="#" role="button">Learn more</a></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- akhir tentang -->
     <section class="content d-flex justify-content-center shadow-lg" id="content">
         <div class="carrousel">
             <article class="card">
