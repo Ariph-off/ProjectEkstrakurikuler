@@ -18,6 +18,9 @@ use App\Http\Controllers\LoginController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/landing', function () {
+    return view('frontend/landing');
+});
 
 Route::get('/index', function () {
     return view('frontend/index');
