@@ -21,7 +21,15 @@ Route::get('/', function () {
 Route::get('/landing', function () {
     return view('frontend/landing');
 });
-
+Route::get('/ekstra', function () {
+    return view('frontend/ekstra');
+});
+Route::get('/prestasi', function () {
+    return view('frontend/prestasi');
+});
+Route::get('/pembina', function () {
+    return view('frontend/pembina');
+});
 Route::get('/index', function () {
     return view('frontend/index');
 });
