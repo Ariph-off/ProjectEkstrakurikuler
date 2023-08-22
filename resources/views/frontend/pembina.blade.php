@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
+    <section id="team" class="team section-bg d-flex align-items-center">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">

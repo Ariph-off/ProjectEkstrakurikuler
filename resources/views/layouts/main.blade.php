@@ -21,6 +21,7 @@
   <link href="{{asset('assets')}}/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="{{asset('assets')}}/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="{{asset('assets')}}/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="{{asset('assets')}}/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="{{asset('assets')}}/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="{{asset('assets')}}/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="{{asset('assets')}}/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -45,6 +46,11 @@
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  @include('partiels.footer')
+  <div class="footer-newsletter">
+    @yield('footer-newsletter')
+  </div>
 
   <!-- Vendor JS Files -->
   <script src="{{asset('assets')}}/assets/vendor/aos/aos.js"></script>
