@@ -21,6 +21,9 @@ Route::get('/', function () {
 Route::get('/landing', function () {
     return view('frontend/landing');
 });
+Route::get('/landing#about', function () {
+    return view('frontend/landing');
+});
 Route::get('/ekstra', function () {
     return view('frontend/ekstra');
 });

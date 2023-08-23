@@ -1,10 +1,14 @@
 @extends('layouts.main')
 <!-- ======= Portfolio Section ======= -->
+<<<<<<< Updated upstream
 <section style="background-color: #93B1A6 ;" id="portfolio" class="portfolio">
+=======
+<section style="background-color: #47b2e4 ; padding-top: 120px;" id="portfolio" class="portfolio" >
+>>>>>>> Stashed changes
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
-      <h2>Portfolio</h2>
+      <h2>Prestasi</h2>
       <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
     </div>
 
