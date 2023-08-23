@@ -2,7 +2,7 @@
 @extends('layouts.main')
 
 <!-- ======= data ekstrakurikuler Section ======= -->
-<section id="services" class="services section-bg d-flex align-items-center" style="background-color: #47b2e4; height: 100vh;">
+<section id="services" class="services section-bg d-flex align-items-center" style="background-color: #F3E8FF; height: 100vh;">
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">

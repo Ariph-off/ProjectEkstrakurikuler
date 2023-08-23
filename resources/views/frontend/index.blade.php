@@ -75,8 +75,8 @@
             <!--navbar ends here -->
             <div class="midlle" id="home">
                 <h1 class="tulisan text-white fw-bold display-3">Membantu anda menemukan <br> <span
-                        class="theme-text">bakat ekstra
-                        yang lebih baik.</span></h1>
+                        class="theme-text color-#37517e">bakat ekstra
+                        yang <br> lebih baik.</span></h1>
 
             </div>
             <div class="selengkapnya">

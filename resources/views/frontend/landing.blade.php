@@ -9,7 +9,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>Membantu Anda Menemukan Bakat Ekstra Yang Lebih Baik</h1>
+          <h1 class="tulisan text-white fw-bold display-3">Membantu Anda Menemukan <br> <span class="theme-text">bakat ekstra
+                        yang lebih baik.</span></h1>
           <h2>SMKN 1 Bondowoso</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started scrollto">Selengkapnya</a>
