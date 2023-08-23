@@ -1,14 +1,9 @@
 @extends('layouts.main')
 
 <!-- ======= data ekstrakurikuler Section ======= -->
-<<<<<<< Updated upstream
-<section id="services" class="services section-bg d-flex align-items-center" style="background-color: #F3E8FF; height: 100vh;">
-  <div class="container" data-aos="fade-up">
-=======
 <section id="services" class="services section-bg d-flex align-items-center"
     style="background-color: #47b2e4; padding-top: 120px;">
     <div class="container" data-aos="fade-up">
->>>>>>> Stashed changes
 
         <div class="section-title">
             <h2>Ekstrakurikuler</h2>
