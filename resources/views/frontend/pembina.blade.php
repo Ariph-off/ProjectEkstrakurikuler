@@ -15,9 +15,9 @@
             <div class="member d-flex align-items-start">
               <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <h4>Drs.Didik Cahyono</h4>
+                <span> Ekstrakurikuler Voli</span>
+                <p>Explicabo voluptatem mollitia et repellat <br> 08124938743</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -32,9 +32,9 @@
             <div class="member d-flex align-items-start">
               <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                <h4>Moh. Ghandy Yudha, S.Pd I</h4>
+                <span>Pembina Ekstrakurikuler Pramuka</span>
+                <p>Aut maiores voluptates amet et quis <br> 085331333239 </p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -49,9 +49,9 @@
             <div class="member d-flex align-items-start">
               <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <h4>Nanang Kristanto, SE</h4>
+                <span>Pembina Ekstrakurikuler PMR</span>
+                <p>Quisquam facilis cum velit laborum </br>081615755133</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -66,9 +66,179 @@
             <div class="member d-flex align-items-start">
               <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <h4>Achmad Muzakki, S.Pd</h4>
+                <span>Pembina Ekstrakurikuler Panahan</span>
+                <p>Dolorum tempora officiis odit laborum </br>085236555774</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Agung Rosarya E., S.Pd</h4>
+                <span>Pembina Ekstrakurikuler Paduan Suara</span>
+                <p>Quisquam facilis cum velit laborum </br>081333086051</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>AW.Hendro P.W., S.Sn</h4>
+                <span>Pembina Ekstrakurikuler Band Musik</span>
+                <p>Quisquam facilis cum velit laborum </br>082141252371</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Drs. Dwi Arianto, M.M</h4>
+                <span>Pembina Ekstrakurikuler Futsal</span>
+                <p>Quisquam facilis cum velit laborum <br> 081233634428</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>S.Mudtrikatul U., S.Pd</h4>
+                <span>Pembina Ekstrakurikuler Tari</span>
+                <p>Quisquam facilis cum velit laborum <br> 08223377533</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>M. Ridwan Saidi, S.Pd</h4>
+                <span>Pembina Ekstrakurikuler Sepak Bola</span>
+                <p>Quisquam facilis cum velit laborum <br> 085655955366 </p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>A. Hamam Al Fadil, S.Ag</h4>
+                <span>Pembina Ekstrakurikuler Hadrah</span>
+                <p>Quisquam facilis cum velit laborum <br> 085257355829 </p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>A. Soegianto, S.Pd</h4>
+                <span>Pembina Ekstrakurikuler Bola Basket</span>
+                <p>Quisquam facilis cum velit laborum 081333735886 </p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Arif Subagyo, S.Pd</h4>
+                <span>Pembina Ekstrakurikuler Drumb Band</span>
+                <p>Quisquam facilis cum velit laborum <br> 085212543094</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>A. Soegianto, S.Pd</h4>
+                <span>Pembina Ekstrakurikuler Bulu Tangkis</span>
+                <p>Quisquam facilis cum velit laborum <br> 081333735886</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Arif Subagyo, S.Pd</h4>
+                <span>Pembina Ekstrakurikuler Silat</span>
+                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
