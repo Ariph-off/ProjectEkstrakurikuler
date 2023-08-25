@@ -1,6 +1,6 @@
 @extends('layouts.main')
 <!-- ======= Portfolio Section ======= -->
-<section style="background-color: #47b2e4 ; padding-top: 120px;" id="portfolio" class="portfolio" >
+<section style="background-color: #37517e; padding-top: 120px;" id="portfolio" class="portfolio" >
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">

@@ -9,7 +9,6 @@
     <nav id="navbar" class="navbar">
       <ul>
         <li><a class="nav-link scrollto active" style="color: white;" href="/landing">Beranda</a></li>
-        <li><a class="nav-link scrollto" href="/landing#about">Tentang</a></li>
         <li><a class="nav-link scrollto" href="/ekstra">Ekstra</a></li>
         <li><a class="nav-link scrollto" href="/pembina">Pembina</a></li>
         <li><a class="nav-link scrollto" href="/prestasi">Prestasi</a></li>

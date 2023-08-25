@@ -36,6 +36,52 @@ Route::get('/pembina', function () {
 Route::get('/index', function () {
     return view('frontend/index');
 });
+Route::get('/pramuka', function () {
+    return view('ekstra/pramuka');
+});
+Route::get('/voli', function () {
+    return view('ekstra/voli');
+});
+Route::get('/pmr', function () {
+    return view('ekstra/pmr');
+});
+Route::get('/basket', function () {
+    return view('ekstra/basket');
+});
+Route::get('/sepakbola', function () {
+    return view('ekstra/sepakbola');
+});
+Route::get('/drumband', function () {
+    return view('ekstra/drumband');
+});
+Route::get('/futsal', function () {
+    return view('ekstra/futsal');
+});
+Route::get('/hadrah', function () {
+    return view('ekstra/hadrah');
+});
+Route::get('/paduansuara', function () {
+    return view('ekstra/paduansuara');
+});
+Route::get('/panahan', function () {
+    return view('ekstra/panahan');
+});
+Route::get('/silat', function () {
+    return view('ekstra/silat');
+});
+Route::get('/tari', function () {
+    return view('ekstra/tari');
+});
+Route::get('/bulutangkis', function () {
+    return view('ekstra/bulutangkis');
+});
+Route::get('/band', function () {
+    return view('ekstra/band');
+});
+
+
+
+
 
 Route::get('/admin', function () {
     return view('backend/home');
