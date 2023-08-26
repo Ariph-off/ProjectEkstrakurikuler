@@ -40,7 +40,7 @@
                   <i class="fa-solid fa-book-atlas" style="color: #ffffff;"></i>
                   {{-- <i class="nav-icon far fa-book-atlas"></i> --}}
                   <p>
-                      Data User
+                      Data Users
                   </p>
               </a>
               <a href="" class="nav-link">
