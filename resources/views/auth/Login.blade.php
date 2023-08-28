@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 3 | Log in (v2)</title>
+    <title>Login Ekstra</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
@@ -20,9 +20,9 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <!-- /.login-logo -->
-        <div class="card card-outline card-primary">
+        <div class="card card-outline card-warning">
             <div class="card-header text-center">
-                <a href="{{ route('login') }}" class="h1"><b>Admin</b>LTE</a>
+                <a href="{{ route('login') }}" class="h1"><b>EKSTRA</b></a>
             </div>
             <div class="card-body">
                 <p class="login-box-msg">Sign in to start your session</p>
@@ -55,12 +55,6 @@
 
                     <div class="row">
                         <div class="col-8">
-                            <div class="icheck-primary">
-                                <input type="checkbox" id="remember">
-                                <label for="remember">
-                                    Remember Me
-                                </label>
-                            </div>
                         </div>
                         <!-- /.col -->
                         <div class="col-4">
@@ -72,13 +66,6 @@
 
 
                 <!-- /.social-auth-links -->
-
-                <p class="mb-1">
-                    <a href="forgot-password.html">I forgot my password</a>
-                </p>
-                <p class="mb-0">
-                    <a href="register.html" class="text-center">Register a new membership</a>
-                </p>
             </div>
             <!-- /.card-body -->
         </div>

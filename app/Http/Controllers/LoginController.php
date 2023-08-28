@@ -13,6 +13,7 @@ class LoginController extends Controller
         return view('auth.login');
     }
 
+
     public function login_proses(Request $request)
     {
         dd($request->all());
@@ -43,7 +44,7 @@ class LoginController extends Controller
 
     public function logout(){
         Auth::logout();
-        return redirect()->route('login')->with('succes' , 'kamu berhasil logout');
+        return redirect()->route('login')->with('success' , 'kamu berhasil logout');
     }
 }
 
