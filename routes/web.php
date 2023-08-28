@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
-
+use App\Http\Controllers\PelatihController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,9 +33,9 @@ Route::get('/prestasi', function () {
 Route::get('/pembina', function () {
     return view('frontend/pembina');
 });
-Route::get('/pelatih', function () {
-    return view('frontend/pelatih');
-});
+// Route::get('/pelatih', function () {
+//     return view('frontend/pelatih');
+// });
 Route::get('/index', function () {
     return view('frontend/index');
 });
@@ -84,7 +84,7 @@ Route::get('/band', function () {
 
 
 
-
+Route::resource('pelatih', PelatihController::class);
 
 
 Route::get('/admin', function () {
