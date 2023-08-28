@@ -33,9 +33,9 @@ Route::get('/prestasi', function () {
 Route::get('/pembina', function () {
     return view('frontend/pembina');
 });
-// Route::get('/pelatih', function () {
-//     return view('frontend/pelatih');
-// });
+Route::get('/userpelatih', function () {
+    return view('frontend/userpelatih');
+});
 Route::get('/index', function () {
     return view('frontend/index');
 });

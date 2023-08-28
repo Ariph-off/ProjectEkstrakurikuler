@@ -11,7 +11,7 @@
         <li><a class="nav-link scrollto active" style="color: white;" href="/landing">Beranda</a></li>
         <li><a class="nav-link scrollto" href="/ekstra">Ekstra</a></li>
         <li><a class="nav-link scrollto" href="/pembina">Pembina</a></li>
-        <li><a class="nav-link scrollto" href="/pelatih">Pelatih</a></li>
+        <li><a class="nav-link scrollto" href="/userpelatih">Pelatih</a></li>
         <li><a class="nav-link scrollto" href="/prestasi">Prestasi</a></li>
         <li class="dropdown"><a href="#"><span>lainnya</span> <i class="bi bi-chevron-down"></i></a>
           <ul class="dropdown-menu">
