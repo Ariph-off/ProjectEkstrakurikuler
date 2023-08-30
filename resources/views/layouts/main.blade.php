@@ -6,6 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <link rel="icon" href="{{asset('assets')}}/assets/img/smkn1bws.png">
+  <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
   <title>EkstraSmakensa</title>
   <meta content="" name="description">

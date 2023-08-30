@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\PelatihModel;
 use Illuminate\Http\Request;
+use DB;
 
 class PelatihController extends Controller
 {
@@ -11,8 +13,17 @@ class PelatihController extends Controller
      */
     public function index()
     {
-        // $pelatih = pelatih::all();
-        return view('pages.pelatih.index');
+        $pelatih = DB::table("pelatih")->get();
+        $dataToView = [
+            'pelatihs' => $pelatih
+        ];
+
+        return view('pages.pelatih.index', $dataToView);
+
+        // $data = PelatihModel::all(); // Mengambil semua data dari tabel menggunakan model
+        // return view('dashboard.index', ['data' => $data]);
+
+
     }
 
     /**

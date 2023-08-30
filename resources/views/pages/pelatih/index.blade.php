@@ -1,10 +1,10 @@
 @extends('backend/panel')
 
 @section('content')
-<!-- Content Wrapper. Contains page content -->
-<div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    {{-- <div class="content-header">
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        {{-- <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
@@ -88,27 +88,36 @@
           <!-- ./col -->
         </div> --}}
 
-<div class="container">
-        <table class="table table-striped table-hover mt-5">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-                <th scope="col">Action</th>
-              </tr>
-            </thead>
-            <tbody>
+        <div class="container">
+            <table class="table table-striped table-hover mt-5">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Nama Pelatih</th>
+                        <th scope="col">Id Ekstra</th>
+                        <th scope="col">NO Hp</th>
+                        <th scope="col">Alamat</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
                 <tbody>
-                        <td>kjsd</td>
-                        <td>kjsd</td>
-                        <td>kjsd</td>
+                    @foreach ($pelatihs as $pelatih)
                         <tr>
-                            
+                            <td>{{ $loop->iteration }}</td>
+                            <td>{{ $pelatih->nama_pelatih }}</td>
+                            <td>{{ $pelatih->id_ekstra }}</td>
+                            <td>{{ $pelatih->no_ho }}</td>
+                            <td>{{ $pelatih->alamat }}</td>
+                            <td>
+                                <a href="" class="btn btn-warning">update</a>
+                                <a href="" class="btn btn-danger">hapus</i></a>
+                            </td>
+                        </tr>
+                    @endforeach
+
 
                 </tbody>
-              {{-- <tr>
+                {{-- <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
                 <td>Otto</td>
@@ -127,9 +136,9 @@
                 <td>@twitter</td>
               </tr>
             </tbody> --}}
-          </table>
+            </table>
         </div>
-          {{-- <table class="table">
+        {{-- <table class="table">
             <thead class="thead-light">
               <tr>
                 <th scope="col">#</th>
@@ -666,17 +675,16 @@
                 <!--The calendar -->
                 <div id="calendar" style="width: 100%"></div>
               </div> --}}
-              <!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-          </section>
-          <!-- right col -->
-        </div>
-        <!-- /.row (main row) -->
-      </div><!-- /.container-fluid -->
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+    </section>
+    <!-- right col -->
+    </div>
+    <!-- /.row (main row) -->
+    </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
-
-  @endsection
+    </div>
+    <!-- /.content-wrapper -->
+@endsection
