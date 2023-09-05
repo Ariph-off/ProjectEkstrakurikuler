@@ -4,8 +4,8 @@
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <div class="container">
-
-          <button type="button" class="btn btn-success mt-3"><i class="fas fa-plus"></i>Tambah</button>
+<br>
+        <a class="btn btn-primary" href="{{ route('pelatih.create') }}"> Create</a>
 
             <table class="table table-striped table-hover mt-4">
                 <thead class="thead-dark">
@@ -19,16 +19,22 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($pelatihs as $pelatih)
+                    @foreach ($pelatih as $pelatihs)
                         <tr>
                             <td>{{ $loop->iteration }}</td>
-                            <td>{{ $pelatih->nama_pelatih }}</td>
-                            <td>{{ $pelatih->id_ekstra }}</td>
-                            <td>{{ $pelatih->no_ho }}</td>
-                            <td>{{ $pelatih->alamat }}</td>
+                            <td>{{ $pelatihs->nama_pelatih }}</td>
+                            <td>{{ $pelatihs->id_ekstra }}</td>
+                            <td>{{ $pelatihs->no_ho }}</td>
+                            <td>{{ $pelatihs->alamat }}</td>
                             <td>
-                                <a href="" class="btn btn-success"><i class="fas fa-pen-nib"></i>Edit</a>
-                                <a href="" class="btn btn-danger"><i class="fas fa-trash"></i>Delete</a>
+                                <!-- <a href="" class="btn btn-success"><i class="fas fa-pen-nib"></i>Edit</a>
+                                <a href="" class="btn btn-danger"><i class="fas fa-trash"></i>Delete</a> -->
+                                <form action="{{ route('pelatih.destroy', $pelatihs->id) }}" method="POST">
+                        <a class="btn btn-success" href="{{ route('pelatih.edit', $pelatihs->id) }}"><i class="fas fa-pen-nib"></i>Edit</a>
+                        @csrf
+                        @method('DELETE')
+                        <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i>Delete</button>
+                    </form>
                             </td>
                         </tr>
                     @endforeach
