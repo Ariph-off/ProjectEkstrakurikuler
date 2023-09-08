@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,7 +37,7 @@
   <!-- Template Main CSS File -->
   <link href="{{ asset('portal') }}/assets/css/main.css" rel="stylesheet">
 
-  
+
 </head>
 
 <body>
@@ -54,10 +52,11 @@
         <h1>EKSTRASMAKENSA</h1>
       </a>
 
-     
+
 
       <nav id="navbar" class="navbar">
         <ul>
+          <li><a class="nav-link scrollto" href="/ekstra">Beranda</a></li>
           <li><a class="nav-link scrollto" href="index.html#featured-services">Services</a></li>
           <li><a class="nav-link scrollto" href="index.html#cta">About</a></li>
           <li><a class="nav-link scrollto" href="index.html#faq">Quations</a></li>
@@ -74,7 +73,7 @@
   <section id="hero-animated" class="hero-animated d-flex align-items-center">
     <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
       <img src="{{ asset('portal') }}/assets/img/bulutangkis/badminton.png" class="img-fluid animated">
-      <h2>Welcome to Ekstrakurikuler <span>Badminton</span></h2> 
+      <h2>Welcome to Ekstrakurikuler <span>Badminton</span></h2>
     </div>
   </section>
 
@@ -90,7 +89,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
             <div class="service-item position-relative">
-              <img src="{{ asset('portal') }}/assets/img/bulutangkis/23.png"  width="100px" height="100px" line-right="50px">
+              <img src="{{ asset('portal') }}/assets/img/bulutangkis/23.png" width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">Tunggal putra</a></h4>
               <p>TUNGGAL PUTRA ADALAH PERTANDINGAN YANG DIMAINKAN OLEH SEORANG PUTRA/LAKI-LAKI.</p>
             </div>
@@ -98,17 +97,17 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
             <div class="service-item position-relative">
-              <img src="{{ asset('portal') }}/assets/img/bulutangkis/tunggalputri.png"  width="100px" height="100px" line-right="50px">
+              <img src="{{ asset('portal') }}/assets/img/bulutangkis/tunggalputri.png" width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">Tunggal putri</a></h4>
               <p>TUNGGAL PUTRI ADALAH PERTANDINGAN YANG DIMAINKAN OLEH SEORANG PUTRI/PEREMPUAN
 
-</p>
+              </p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
             <div class="service-item position-relative">
-              <img src="{{ asset('portal') }}/assets/img/bulutangkis/ganda putra.png"  width="100px" height="100px" line-right="50px">
+              <img src="{{ asset('portal') }}/assets/img/bulutangkis/ganda putra.png" width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">Ganda putra</a></h4>
               <p>GANDA PUTRA ADALAH PERTANDINGAN YANG DIMAINKAN OLEH DUA ORANG PUTRA/LAKI-LAKI</p>
             </div>
@@ -116,16 +115,16 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
             <div class="service-item position-relative">
-              <img src="{{ asset('portal') }}/assets/img/bulutangkis/ganda putri.png"  width="100px" height="100px" line-right="50px">
+              <img src="{{ asset('portal') }}/assets/img/bulutangkis/ganda putri.png" width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">Ganda putri</a></h4>
               <p>GANDA PUTRI ADALAH PERTANDINGAN YANG DIMAINKAN OLEH DUA ORANG PUTRI/PEREMPUAN
 
-</p>
+              </p>
             </div>
           </div><!-- End Service Item -->
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
             <div class="service-item position-relative">
-              <img src="{{ asset('portal') }}/assets/img/bulutangkis/ganda campuran.png"  width="100px" height="100px" line-right="50px">
+              <img src="{{ asset('portal') }}/assets/img/bulutangkis/ganda campuran.png" width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">Ganda campur</a></h4>
               <p>GANDA CAMPURAN ADALAH PERTANDINGAN YANG DIMAINKAN OLEH DUA ORANG YAITU PUTRA DAN PUTRI</p>
             </div>
@@ -154,12 +153,12 @@
           </div>
 
         </div>
- 
+
       </div>
     </section><!-- End Call To Action Section -->
 
 
-   
+
 
     <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq">
@@ -171,7 +170,7 @@
 
             <div class="content px-xl-5">
               <h3>Pertanyaan yang Sering Diajukan<strong>Questions</strong></h3>
-        
+
             </div>
 
             <div class="accordion accordion-flush px-xl-5" id="faqlist">
@@ -194,11 +193,11 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Apakah ada ekstrakurikuler Badminton?                  </button>
+                    Apakah ada ekstrakurikuler Badminton? </button>
                 </h3>
                 <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    merupakan ekstrakurikuler bidang olahraga yang didalamnya melatih berbagai teknik dan strategi dalam bermain bulutangkis.                  </div>
+                    merupakan ekstrakurikuler bidang olahraga yang didalamnya melatih berbagai teknik dan strategi dalam bermain bulutangkis. </div>
                 </div>
               </div><!-- # Faq item-->
 
@@ -206,11 +205,11 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Apa manfaat ekskul badminton?                  </button>
+                    Apa manfaat ekskul badminton? </button>
                 </h3>
                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Dengan adanya kegiatan ekstrakurikuler badminton di harapkan dapat menjadi wadah untuk penyaluran bakat para siswa. Jenis kegiatanpun sangat beragam baik itu seputar olah raga, keterampilan ataupun pengetahuan.                  </div>
+                    Dengan adanya kegiatan ekstrakurikuler badminton di harapkan dapat menjadi wadah untuk penyaluran bakat para siswa. Jenis kegiatanpun sangat beragam baik itu seputar olah raga, keterampilan ataupun pengetahuan. </div>
                 </div>
               </div><!-- # Faq item-->
 
@@ -218,12 +217,13 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Apa keuntungan mengikuti ekskul?                  </button>
+                    Apa keuntungan mengikuti ekskul? </button>
                 </h3>
                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Membantu siswa mengenali hubungan antara berbagai mata pelajaran sekolah. Media untuk menyalurkan bakat dan minat siswa. Salah satu langkah upaya untuk pembangunan manusia secara utuh. Mengembangkan minat dan bakat siswa untuk pembinaan ke arah yang positif.                  </div>
+                    Membantu siswa mengenali hubungan antara berbagai mata pelajaran sekolah. Media untuk menyalurkan bakat dan minat siswa. Salah satu langkah upaya untuk pembangunan manusia secara utuh. Mengembangkan minat dan bakat siswa untuk pembinaan ke arah yang positif.
+                  </div>
                 </div>
               </div><!-- # Faq item-->
 
@@ -246,9 +246,9 @@
 
         <div class="section-header">
           <h2>Galeri</h2>
-          <p>Galeri Badminton SMKN 1 Bondowoso adalah tempat yang menampilkan berbagai pencapaian 
-            dan aktivitas Badminton di sekolah tersebut. Dengan koleksi foto, perlengkapan, dan dokumentasi penting, galeri ini berfungsi untuk mempromosikan nilai-nilai Badminton, menginspirasi siswa-siswi lainnya untuk bergabung, dan memperkuat keterampilan badminton. 
-            </p>
+          <p>Galeri Badminton SMKN 1 Bondowoso adalah tempat yang menampilkan berbagai pencapaian
+            dan aktivitas Badminton di sekolah tersebut. Dengan koleksi foto, perlengkapan, dan dokumentasi penting, galeri ini berfungsi untuk mempromosikan nilai-nilai Badminton, menginspirasi siswa-siswi lainnya untuk bergabung, dan memperkuat keterampilan badminton.
+          </p>
         </div>
 
       </div>
@@ -452,109 +452,108 @@
       </div>
     </section><!-- End Team Section -->
 
-   
 
-          
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
 
-    <div class="footer-content">
-      <div class="container">
-        <div class="row">
 
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>HeroBiz</h3>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+
+      <div class="footer-content">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-info">
+                <h3>HeroBiz</h3>
+                <p>
+                  A108 Adam Street <br>
+                  NY 535022, USA<br><br>
+                  <strong>Phone:</strong> +1 5589 55488 55<br>
+                  <strong>Email:</strong> info@example.com<br>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Our Newsletter</h4>
+              <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+              <form action="" method="post">
+                <input type="email" name="email"><input type="submit" value="Subscribe">
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-legal text-center">
+        <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+          <div class="d-flex flex-column align-items-center align-items-lg-start">
+            <div class="copyright">
+              &copy; Copyright <strong><span>HeroBiz</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
+          <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
 
         </div>
       </div>
-    </div>
 
-    <div class="footer-legal text-center">
-      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+    </footer><!-- End Footer -->
 
-        <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div class="copyright">
-            &copy; Copyright <strong><span>HeroBiz</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        </div>
+    <div id="preloader"></div>
 
-      </div>
-    </div>
+    <!-- Vendor JS Files -->
+    <script src="{{ asset('portal') }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('portal') }}/assets/vendor/aos/aos.js"></script>
+    <script src="{{ asset('portal') }}/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="{{ asset('portal') }}/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="{{ asset('portal') }}/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="{{ asset('portal') }}/assets/vendor/php-email-form/validate.js"></script>
 
-  </footer><!-- End Footer -->
-
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="{{ asset('portal') }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="{{ asset('portal') }}/assets/vendor/aos/aos.js"></script>
-  <script src="{{ asset('portal') }}/assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="{{ asset('portal') }}/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="{{ asset('portal') }}/assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="{{ asset('portal') }}/assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="{{ asset('portal') }}/assets/js/main.js"></script>
+    <!-- Template Main JS File -->
+    <script src="{{ asset('portal') }}/assets/js/main.js"></script>
 
 </body>
 
 </html>
-

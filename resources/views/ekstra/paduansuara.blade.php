@@ -56,6 +56,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
+        <li><a class="nav-link scrollto" href="/ekstra">Beranda</a></li>
           <li><a class="nav-link scrollto" href="index.html#featured-services">Services</a></li>
           <li><a class="nav-link scrollto" href="index.html#cta">About</a></li>
           <li><a class="nav-link scrollto" href="index.html#faq">Quations</a></li>
@@ -241,7 +242,7 @@
 
           </div>
 
-          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("{{asset('portal')}}/assets/img/paduan suara/paduansuara.png");'>&nbsp;</div>
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("{{asset('portal')}}/assets/img/paduan suara/dus.png");'>&nbsp;</div>
         </div>
 
       </div>
@@ -253,8 +254,8 @@
       <div class="container">
 
         <div class="section-header">
-          <h2>Portfolio</h2>
-          <p>Non hic nulla eum consequatur maxime ut vero memo vero totam officiis pariatur eos dolorum sed fug dolorem est possimus esse quae repudiandae. Dolorem id enim officiis sunt deserunt esse soluta consequatur quaerat</p>
+          <h2>Galeri</h2>
+          <p>Galeri Paduan Suara SMKN 1 Bondowoso adalah tempat yang menampilkan berbagai pencapaian dan aktivitas Paduan Suara di sekolah tersebut. Dengan koleksi foto, perlengkapan, dan dokumentasi penting, galeri ini berfungsi untuk mempromosikan nilai-nilai Paduan Suara, menginspirasi siswa-siswi lainnya untuk bergabung.</p>
         </div>
 
       </div>
@@ -331,8 +332,25 @@
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
-                <h4>Walter White</h4>
+                <h4>Muhammad Nabil</h4>
                 <span>Katua Paduan Suara</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{{asset('portal')}}/assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Adam Alamsyah</h4>
+                <span>Wakil Paduan Suara</span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -349,8 +367,8 @@
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
-                <h4>Sarah Jhonson</h4>
-                <span>Sekretaris Paduan Suara</span>
+                <h4>Mudrika Salsabila</h4>
+                <span>Bendahara 1</span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -367,8 +385,44 @@
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
-                <h4>William Anderson</h4>
-                <span>Bendahara Paduan Suara</span>
+                <h4>Mita Dwi Kartika</h4>
+                <span>Bendahara 2</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{{asset('portal')}}/assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Anissa zalifa</h4>
+                <span>Sekretaris 1</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{{asset('portal')}}/assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Anissa zalifa</h4>
+                <span>Sekretaris 2</span>
               </div>
             </div>
           </div><!-- End Team Member -->

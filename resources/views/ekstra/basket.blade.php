@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,9 +16,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="{{asset('portal')}}/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -59,18 +56,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="/landing">Beranda</a></li>
-          <li><a class="nav-link scrollto" href="/ekstra">Ekstra</a></li>
-          <li><a class="nav-link scrollto" href="/pembina">Pembina</a></li>
-          <li><a class="nav-link scrollto" href="/userpelatih">Pelatih</a></li>
-          <li><a class="nav-link scrollto" href="/prestasi">Prestasi</a></li>
-          <li class="dropdown"><a href="#"><span>lainnya</span> <i class="bi bi-chevron-down"></i></a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/login">Login (admin)</a></li>
-              <li><a class="dropdown-item" href="#">Hubungi Kami</a></li>
-              <li>
-            </ul>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="nav-link scrollto" href="/ekstra">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="index.html#featured-services">Services</a></li>
+          <li><a class="nav-link scrollto" href="index.html#cta">About</a></li>
+          <li><a class="nav-link scrollto" href="index.html#faq">Quations</a></li>
+          <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="index.html#team">Struktur</a></li>
         </ul>
       </nav>
 
@@ -80,8 +71,7 @@
   </header><!-- End Header -->
 
   <section id="hero-animated" class="hero-animated d-flex align-items-center">
-    <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
-      data-aos="zoom-out">
+    <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
       <img src="{{asset('portal')}}/assets/img/basket/BASKET.png" class="img-fluid animated">
       <h2>Welcome to <span>Basketball Smakensa</span></h2>
     </div>
@@ -199,8 +189,7 @@
 
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-1">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
                     <i class="bi bi-question-circle question-icon"></i>
                     Apa tujuan ekstrakurikuler basket?
                   </button>
@@ -216,8 +205,7 @@
 
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
                     <i class="bi bi-question-circle question-icon"></i>
                     Dimana tempat latihan ekstra basket?
                   </button>
@@ -232,8 +220,7 @@
 
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="600">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-5">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
                     <i class="bi bi-question-circle question-icon"></i>
                     Apakah guru olahraga yang akan melatih ekstra basket?
                   </button>
@@ -266,8 +253,7 @@
 
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-4">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
                     <i class="bi bi-question-circle question-icon"></i>
                     Apa nama induk organisasi bola basket?
                   </button>
@@ -284,8 +270,7 @@
 
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
                     <i class="bi bi-question-circle question-icon"></i>
                     Apakah ekstra basket mengadakan sparing?
                   </button>
@@ -302,8 +287,7 @@
 
           </div>
 
-          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img rounded pill"
-            style='background-image: url("{{asset('portal')}}/assets/img/basket/BASKET\(10\).jpg");'>&nbsp;</div>
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img rounded pill" style='background-image: url("{{asset('portal')}}/assets/img/basket/BASKET\(10\).jpg");'>&nbsp;</div>
         </div>
 
       </div>
@@ -396,8 +380,7 @@
 
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="200">
 
-        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
-          data-portfolio-sort="original-order">
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
 
           <ul class="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
@@ -413,10 +396,8 @@
               <img src="{{asset('portal')}}/assets/img/basket/BASKET(8).jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
-                <a href="{{asset('portal')}}/assets/img/paduan suara/1.jpg" title="App 1" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+                <a href="{{asset('portal')}}/assets/img/paduan suara/1.jpg" title="App 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -424,10 +405,8 @@
               <img src="{{asset('portal')}}/assets/img/basket/BASKET(9).jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product 1</h4>
-                <a href="{{asset('portal')}}/assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+                <a href="{{asset('portal')}}/assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -435,10 +414,8 @@
               <img src="{{asset('portal')}}/assets/img/basket/BASKET(6).jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Branding 1</h4>
-                <a href="{{asset('portal')}}/assets/img/basket/BASKET(6).jpg" title="Branding 1" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+                <a href="{{asset('portal')}}/assets/img/basket/BASKET(6).jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -446,10 +423,8 @@
               <img src="{{asset('portal')}}/assets/img/basket/BASKET(7).jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Books 1</h4>
-                <a href="{{asset('portal')}}/assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+                <a href="{{asset('portal')}}/assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -521,8 +496,7 @@
       </div>
 
       <div class="footer-legal text-center">
-        <div
-          class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+        <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
           <div class="d-flex flex-column align-items-center align-items-lg-start">
             <div class="copyright">
@@ -550,8 +524,7 @@
 
     </footer><!-- End Footer -->
 
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <div id="preloader"></div>
 
