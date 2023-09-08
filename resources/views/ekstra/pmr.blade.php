@@ -99,7 +99,7 @@
 
   <section id="hero-animated" class="hero-animated d-flex align-items-center">
     <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-      <img src="{{asset('portal')}}/assets/img/halaman pertama.png" class="img-fluid animated">
+      <img src="{{asset('portal')}}/assets/img/pmr/icon-pmr.png" class="img-fluid animated">
       <h2>Welcome to Ekstrakurikuler <span>PMR</span></h2> 
     </div>
   </section>
@@ -116,7 +116,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
             <div class="service-item position-relative">
-              <img src="{{asset('portal')}}/assets/img/1.png"  width="100px" height="100px" line-right="50px">
+              <img src="{{asset('portal')}}/assets/img/pmr/palang.png"  width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">Mengenal Gerakan Palang Merah Remaja</a></h4>
               <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
@@ -124,7 +124,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
             <div class="service-item position-relative">
-              <img src="{{asset('portal')}}/assets/img/note1.png"  width="100px" height="100px" line-right="50px">
+              <img src="{{asset('portal')}}/assets/img/pmr/donor.png"  width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">Donor Darah 
               </a></h4>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
@@ -133,7 +133,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
             <div class="service-item position-relative">
-              <img src="{{asset('portal')}}/assets/img/note2.png"  width="100px" height="100px" line-right="50px">
+              <img src="{{asset('portal')}}/assets/img/pmr/peduli.png"  width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link"> Remaja Sehat Peduli Sesama </a></h4>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
@@ -141,7 +141,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
             <div class="service-item position-relative">
-              <img src="{{asset('portal')}}/assets/img/note3.png"  width="100px" height="100px" line-right="50px">
+              <img src="{{asset('portal')}}/assets/img/pmr/pertolongan pertama.png"  width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">Kesiapsiagaan Bencana</a></h4>
               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
             </div>
@@ -160,12 +160,13 @@
 
           <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
             <h3>Apa yang dimaksud dengan <em>Palang Merah Remaja</em></h3>
+            <p>Palang Merah Remaja (PMR) adalah sebuah organisasi yang bergerak di bidang kemanusiaan dan relawan yang merupakan bagian dari Palang Merah atau Badan Palang Merah dan Bulan Sabit Merah Internasional. PMR biasanya terdiri dari remaja dan pemuda yang bergabung untuk melakukan kegiatan sosial, bantuan kemanusiaan, dan relawan dalam berbagai situasi darurat. </p>
             <!-- <p> Palang Merah Remaja atau PMR adalah suatu organisasi binaan dari Palang Merah Indonesia yang berpusat di sekolah-sekolah ataupun kelompok-kelompok masyarakat (sanggar, kelompok belajar, dll.) yang bertujuan membangun dan mengembangkan karakter Kepalangmerahan agar siap menjadi Relawan PMI pada masa depan.</p> -->
           </div>
 
           <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
             <div class="img">
-              <img src="{{asset('portal')}}/assets/img/foto.jpg" alt="" class="img-fluid">
+              <img src="{{asset('portal')}}/assets/img/pmr/empat.jpg" alt="" class="img-fluid">
             </div>
           </div>
 
@@ -186,9 +187,9 @@
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
             <div class="content px-xl-5">
-              <h3>Pertanyaan yang Sering Diajukan<strong>Questions</strong></h3>
+              <h3>Pertanyaan yang Sering Diajukan dalam<strong>PMR</strong></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                terkait dengan keanggotaan, kegiatan, tanggung jawab, dan berbagai aspek lainnya. Beberapa pertanyaan yang sering diajukan oleh anggota Palang Merah Remaja meliputi:
               </p>
             </div>
 
@@ -212,12 +213,13 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Apa tujuan anda masuk PMR?
+                    Apa manfaatnya menjadi anggota Palang Merah Remaja?
                   </button>
                 </h3>
                 <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    melatih jiwa kemanusiaan Kamu dan membuat Kamu lebih peduli pada orang lain. Alasan masuk PMR selanjutnya adalah karena di organisasi ini Kamu bisa membantu banyak orang yang sedang membutuhkan.
+                    dalam kegiatan PMR memberikan pengalaman langsung dalam melakukan tindakan kemanusiaan seperti membantu orang yang membutuhkan, mengumpulkan dana untuk proyek amal, dan berpartisipasi dalam bantuan bencana alam.
+                    Manfaat yang Anda dapatkan sebagai anggota PMR akan tergantung pada tingkat keterlibatan Anda dan bagaimana Anda memanfaatkan kesempatan yang diberikan oleh organisasi ini. Yang pasti, menjadi anggota PMR dapat menjadi pengalaman yang berharga dan memberikan dampak positif dalam hidup Anda dan masyarakat sekitar Anda.
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -236,20 +238,20 @@
                 </div>
               </div><!-- # Faq item-->
 
-              <!-- <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
+               <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Apa sebutan bagi pemimpin paduan suara?
+                    Apa tanggung jawab saya sebagai anggota Palang Merah Remaja?
                   </button>
                 </h3>
                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Setiap paduan suara memiliki seorang pelatih (amatir) yang juga bertindak sebagai pemimpin paduan suara, disebut sebagai Dirigen.
+                    Sebagai anggota Palang Merah Remaja (PMR), Anda memiliki beragam tanggung jawab yang melibatkan kemanusiaan, solidaritas, dan pengembangan diri. 
                   </div>
                 </div>
-              </div># Faq item -->
+              </div> 
 
               <!-- <div class="accordion-item" data-aos="fade-up" data-aos-delay="600">
                 <h3 class="accordion-header">
@@ -269,7 +271,7 @@
 
           </div>
 
-          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("{{asset('portal')}}/assets/img/faq.jpg");'>&nbsp;</div>
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("{{asset('portal')}}/assets/img/pmr/pmr2.png");'>&nbsp;</div>
         </div>
 
       </div>
@@ -281,8 +283,8 @@
       <div class="container">
 
         <div class="section-header">
-          <h2>Portfolio</h2>
-          <p>Non hic nulla eum consequatur maxime ut vero memo vero totam officiis pariatur eos dolorum sed fug dolorem est possimus esse quae repudiandae. Dolorem id enim officiis sunt deserunt esse soluta consequatur quaerat</p>
+          <h2>Galeri</h2>
+          <p>Palang Merah Remaja berperan penting dalam membangun generasi muda yang peduli dan aktif dalam membantu sesama. Organisasi ini memberikan peluang bagi para remaja untuk belajar, tumbuh, dan memberikan kontribusi positif kepada masyarakat dan dunia pada umumnya.</p>
         </div>
 
       </div>
@@ -293,73 +295,73 @@
 
           <ul class="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
+            <li data-filter=".filter-app">1</li>
+            <li data-filter=".filter-product">2</li>
+            <li data-filter=".filter-branding">3</li>
+            <li data-filter=".filter-books">4</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row g-0 portfolio-container">
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="{{asset('portal')}}/assets/img/1.jpg" class="img-fluid" alt="">
+              <img src="{{asset('portal')}}/assets/img/pmr/dua.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
-                <a href="{{asset('portal')}}/assets/img/23.jpg" title="App 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{asset('portal')}}/assets/img/pmr/dua.jpg" title="App 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="{{asset('portal')}}/assets/img/1.jpg" class="img-fluid" alt="">
+              <img src="{{asset('portal')}}/assets/img/pmr/satu.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product 1</h4>
-                <a href="{{asset('portal')}}/assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{asset('portal')}}/assets/img/pmr/satu.jpg" title="Product 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
-              <img src="{{asset('portal')}}/assets/img/3" class="img-fluid" alt="">
+              <img src="{{asset('portal')}}/assets/img/pmr/tiga.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Branding 1</h4>
-                <a href="{{asset('portal')}}/assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{asset('portal')}}/assets/img/pmr/tiga.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
-              <img src="{{asset('portal')}}/assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+            {{-- <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
+              <img src="{{asset('portal')}}/assets/img/pmr/kegiatan1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Books 1</h4>
-                <a href="{{asset('portal')}}/assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{asset('portal')}}/assets/img/pmr/kegiatan1.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Portfolio Item --> --}}
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="{{asset('portal')}}/assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+              <img src="{{asset('portal')}}/assets/img/pmr/kegiatan2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
-                <a href="{{asset('portal')}}/assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{asset('portal')}}/assets/img//pmr/kegiatan2.jpg" title="App 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="{{asset('portal')}}/assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+              <img src="{{asset('portal')}}/assets/img/pmr/kegiatan3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product 2</h4>
-                <a href="{{asset('portal')}}/assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{asset('portal')}}/assets/img/pmr/kegiatan3.jpg" title="Product 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
-              <img src="{{asset('portal')}}/assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+              <img src="{{asset('portal')}}/assets/img/pmr/kegiatan4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Branding 2</h4>
-                <a href="{{asset('portal')}}/assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{asset('portal')}}/assets/img/pmr/kegiatan4.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -430,15 +432,15 @@
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="{{asset('portal')}}/assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="{{asset('portal')}}/assets/img/pmr/ketuapmr.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <div class="social">
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
                 <h4>Citra Ulfia Zahro</h4>
                 <span>Katua</span>
               </div>
@@ -448,15 +450,15 @@
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
-                <img src="{{asset('portal')}}/assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <img src="{{asset('portal')}}/assets/img/pmr/sekretaris.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <div class="social">
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
                 <h4>Alfia Nuruzzyadah
                 </h4>
                 <span>Sekretaris</span>
@@ -467,15 +469,15 @@
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
             <div class="team-member">
               <div class="member-img">
-                <img src="{{asset('portal')}}/assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="{{asset('portal')}}/assets/img/pmr/bendahara.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <div class="social">
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
                 <h4>Rizki Amalia
                 </h4>
                 <span>Bendahara</span>
