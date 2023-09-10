@@ -188,10 +188,10 @@
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
             <div class="content px-xl-5">
-              <h3>Pertanyaan yang Sering Diajukan dalam<strong>PMR</strong></h3>
-              <p>
+              <h3>Pertanyaan yang Sering Diajukan dalam <strong>PMR</strong></h3>
+              {{-- <p>
                 terkait dengan keanggotaan, kegiatan, tanggung jawab, dan berbagai aspek lainnya. Beberapa pertanyaan yang sering diajukan oleh anggota Palang Merah Remaja meliputi:
-              </p>
+              </p> --}}
             </div>
 
             <div class="accordion accordion-flush px-xl-5" id="faqlist">
@@ -368,41 +368,41 @@
           </div><!-- End Portfolio Item -->
 
           <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
-            <img src="{{asset('portal')}}/assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+            <img src="{{asset('portal')}}/assets/img/pmr/kegiatan5.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Books 2</h4>
-              <a href="{{asset('portal')}}/assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="{{asset('portal')}}/assets/img/pmr/kegiatan5.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
             </div>
           </div><!-- End Portfolio Item -->
 
           <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="{{asset('portal')}}/assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+            <img src="{{asset('portal')}}/assets/img/pmr/kegiatan6.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>App 3</h4>
-              <a href="{{asset('portal')}}/assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="{{asset('portal')}}/assets/img/pmr/kegiatan6.jpg" title="App 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
             </div>
           </div><!-- End Portfolio Item -->
 
           <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-            <img src="{{asset('portal')}}/assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+            <img src="{{asset('portal')}}/assets/img/pmr/kegiatan7.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Product 3</h4>
-              <a href="{{asset('portal')}}/assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="{{asset('portal')}}/assets/img/pmr/kegiatan7.jpg" title="Product 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
             </div>
           </div><!-- End Portfolio Item -->
 
-          <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
+          {{-- <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
             <img src="{{asset('portal')}}/assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Branding 3</h4>
               <a href="{{asset('portal')}}/assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
             </div>
-          </div><!-- End Portfolio Item -->
-
+          </div><!-- End Portfolio Item --> --}}
+{{-- 
           <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
             <img src="{{asset('portal')}}/assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -410,7 +410,7 @@
               <a href="{{asset('portal')}}/assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
             </div>
-          </div><!-- End Portfolio Item -->
+          </div><!-- End Portfolio Item --> --}}
 
         </div><!-- End Portfolio Container -->
 
