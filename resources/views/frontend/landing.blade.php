@@ -11,11 +11,11 @@
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           <h1 class="tulisan text-white fw-bold display-3">Membantu Anda Menemukan <br> <span class="theme-text">bakat ekstra
                         yang lebih baik.</span></h1>
-          <h2>SMKN 1 Bondowoso</h2>
-          <div class="d-flex justify-content-center justify-content-lg-start">
+          <h2>SMKN 1 BONDOWOSO</h2>
+          {{-- <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started scrollto">Selengkapnya</a>
             {{-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> --}}
-          </div>
+          </div> --}}
         </div>
         {{-- <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
           <img src="{{asset('assets')}}/assets/img/hero-img.png" class="img-fluid animated" alt="">
@@ -103,10 +103,10 @@
 
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
-            <div class="content">
-              <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
+            <div class="content" id="">
+              <h3>Pertanyaan tentang <strong>EkstraKurikuler Smakensa</strong></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                Pertanyaan yang sering ditanyakan siswa tentang ekstrakurikuler smakensa
               </p>
             </div>
 
