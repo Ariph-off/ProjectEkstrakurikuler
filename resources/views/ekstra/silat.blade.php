@@ -25,6 +25,12 @@
   <link href="{{asset('portal')}}/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="{{asset('portal')}}/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- css footer -->
+  <link href="{{asset('assets')}}/assets/css/style.css" rel="stylesheet">
+  <link href="{{asset('assets')}}/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="{{asset('assets')}}/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+
   <!-- Variables CSS Files. Uncomment your preferred color scheme -->
   <link href="{{asset('portal')}}/assets/css/variables.css" rel="stylesheet">
   <!-- <link href="{{asset('portal')}}/assets/css/variables-blue.css" rel="stylesheet"> -->
@@ -56,18 +62,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="/landing">Beranda</a></li>
-          <li><a class="nav-link scrollto" href="/ekstra">Ekstra</a></li>
-          <li><a class="nav-link scrollto" href="/pembina">Pembina</a></li>
-          <li><a class="nav-link scrollto" href="/userpelatih">Pelatih</a></li>
-          <li><a class="nav-link scrollto" href="/prestasi">Prestasi</a></li>
-          <li class="dropdown"><a href="#"><span>lainnya</span> <i class="bi bi-chevron-down"></i></a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/login">Login (admin)</a></li>
-              <li><a class="dropdown-item" href="#">Hubungi Kami</a></li>
-              <li>
-          </ul>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="nav-link scrollto" href="/ekstra">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="index.html#featured-services">Services</a></li>
+          <li><a class="nav-link scrollto" href="index.html#cta">About</a></li>
+          <li><a class="nav-link scrollto" href="index.html#faq">Quations</a></li>
+          <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="index.html#team">Struktur</a></li>
         </ul>
       </nav>
 
@@ -95,7 +95,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
             <div class="service-item position-relative">
-              <img src="{{asset('portal')}}/assets/img/pencaksilat/ikon1.png"  width="100px" height="100px" line-right="50px">
+              <img src="{{asset('portal')}}/assets/img/pencaksilat/ikon1.png" width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">PSHT</a></h4>
               <p>Persaudaraan Setia Hati Terate (dikenal luas sebagai PSHT atau SH Terate) adalah organisasi olahraga yang diinisiasi oleh Ki Hadjar Hardjo Oetomo pada tahun 1922 dan kemudian disepakati namanya menjadi Persaudaraan Setia Hati Terate pada kongres pertamanya di Madiun pada tahun 1948.</p>
             </div>
@@ -103,7 +103,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
             <div class="service-item position-relative">
-              <img src="{{asset('portal')}}/assets/img/pencaksilat/ikon2.png"  width="100px" height="100px" line-right="50px">
+              <img src="{{asset('portal')}}/assets/img/pencaksilat/ikon2.png" width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">Pagar Nusa</a></h4>
               <p>agar Nusa adalah organisasi yang mewadahi pencak silat di bawah naungan Nahdlatul Ulama yang berdiri pada 22 Rabi'ul Akhir 1406 H / 3 Januari 1986 M di Pondok Pesantren Lirboyo Kediri, Jawa Timur dengan Ketua Umum pertamanya adalah KH. Abdulloh Maksum Jauhari</p>
             </div>
@@ -111,7 +111,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
             <div class="service-item position-relative">
-              <img src="{{asset('portal')}}/assets/img/pencaksilat/ikon3.png"  width="100px" height="100px" line-right="50px">
+              <img src="{{asset('portal')}}/assets/img/pencaksilat/ikon3.png" width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">Perisai Diri</a></h4>
               <p>Perisai Diri didirikan secara resmi pada tanggal 2 Juli 1955 di Surabaya, Jawa Timur. Pendirinya adalah almarhum RM Soebandiman Dirdjoatmodjo, putra bangsawan Keraton Paku Alam. Sebelum mendirikan Perisai Diri secara resmi, beliau melatih silat di lingkungan Perguruan Taman Siswa atas permintaan pamannya, Ki Hajar Dewantoro</p>
             </div>
@@ -119,7 +119,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
             <div class="service-item position-relative">
-              <img src="{{asset('portal')}}/assets/img/pencaksilat/ikon4.png"  width="100px" height="100px" line-right="50px">
+              <img src="{{asset('portal')}}/assets/img/pencaksilat/ikon4.png" width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">Merpati Putih</a></h4>
               <p>Merpati Putih (MP) merupakan salah satu Perguruan Pencak Silat Bela diri tangan kosong (PPS Betako) di Indonesia. Merpati Putih merupakan salah satu anggota Ikatan Pencak Silat Seluruh Indonesia (IPSI) dan Martial Arts Federation For World Peace (MAFWP) serta Persekutuan Pencak Silat Antar Bangsa atau PERSILAT (International Pencak Silat Federation).</p>
             </div>
@@ -218,7 +218,7 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
                     <i class="bi bi-question-circle question-icon"></i>
-                   Kapan berdirinya Pencak Silat?
+                    Kapan berdirinya Pencak Silat?
                   </button>
                 </h3>
                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
@@ -466,107 +466,25 @@
       </div>
     </section><!-- End Team Section -->
 
-
-
-
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    <div class="footer-content">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>HeroBiz</h3>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
-        </div>
-      </div>
+    @include('partiels.footer')
+    <div class="footer-newsletter">
+      @yield('footer-newsletter')
     </div>
 
-    <div class="footer-legal text-center">
-      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-        <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div class="copyright">
-            &copy; Copyright <strong><span>HeroBiz</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
+    <div id="preloader"></div>
 
-        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        </div>
+    <!-- Vendor JS Files -->
+    <script src="{{asset('portal')}}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{asset('portal')}}/assets/vendor/aos/aos.js"></script>
+    <script src="{{asset('portal')}}/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="{{asset('portal')}}/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="{{asset('portal')}}/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="{{asset('portal')}}/assets/vendor/php-email-form/validate.js"></script>
 
-      </div>
-    </div>
-
-  </footer><!-- End Footer -->
-
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="{{asset('portal')}}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="{{asset('portal')}}/assets/vendor/aos/aos.js"></script>
-  <script src="{{asset('portal')}}/assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="{{asset('portal')}}/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="{{asset('portal')}}/assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="{{asset('portal')}}/assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="{{asset('portal')}}/assets/js/main.js"></script>
+    <!-- Template Main JS File -->
+    <script src="{{asset('portal')}}/assets/js/main.js"></script>
 
 </body>
 
