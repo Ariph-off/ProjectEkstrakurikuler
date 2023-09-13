@@ -12,7 +12,7 @@
                     <tr>
                         <th scope="col">ID</th>
                         <th scope="col">Nama Pelatih</th>
-                        <th scope="col">Id Ekstra</th>
+                        <th scope="col">Ekstra</th>
                         <th scope="col">NO Hp</th>
                         <th scope="col">Alamat</th>
                         <th scope="col">Action</th>

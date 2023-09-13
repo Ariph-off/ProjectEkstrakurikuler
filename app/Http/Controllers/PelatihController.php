@@ -41,9 +41,9 @@ class PelatihController extends Controller
     public function store(Request $request)
     {
         $validatedData = $request->validate([
-            'nama_pelatih' => 'required',
+            'nama_pelatih' => 'required|unique:pelatih,nama_pelatih',
             'id_ekstra' => 'required',
-            'no_ho' => 'required',
+            'no_ho' => 'required|unique:pelatih,no_ho',
             'alamat' => 'required',
         ]);
      
@@ -87,7 +87,7 @@ class PelatihController extends Controller
             'alamat' => 'required',
         ]);
 
-        Pelatih::whereservice($pelatih)->update($validatedData);
+        // Pelatih::whereservice($pelatih)->update($validatedData);
         $pelatih = Pelatih::find($pelatih->id);
         $pelatih->nama_pelatih = $request->nama_pelatih;
         $pelatih->id_ekstra = $request->id_ekstra;
