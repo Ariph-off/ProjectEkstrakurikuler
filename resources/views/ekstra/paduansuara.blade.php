@@ -25,6 +25,11 @@
   <link href="{{asset('portal')}}/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="{{asset('portal')}}/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- css footer -->
+  <link href="{{asset('assets')}}/assets/css/style.css" rel="stylesheet">
+  <link href="{{asset('assets')}}/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="{{asset('assets')}}/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
   <!-- Variables CSS Files. Uncomment your preferred color scheme -->
   <link href="{{asset('portal')}}/assets/css/variables.css" rel="stylesheet">
   <!-- <link href="{{asset('portal')}}/assets/css/variables-blue.css" rel="stylesheet"> -->
@@ -52,7 +57,6 @@
         <h1>EKSTRASMAKENSA</h1>
       </a>
 
-     
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -92,33 +96,33 @@
          
           <div align="center" class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
             <div class="service-item position-relative">
-              <img src="{{asset('portal')}}/assets/img/paduan suara/note2.png" alt="" class="img-fluid" width="100px">
-              <h4 align="center"><a class="stretched-link">Sopran</a></h4>
-              <p>Sopran adalah penyanyi suara tertinggi dalam klasifikasi vokal di dalam budaya musik klasik barat. Istilah ini berasal dari bahasa Italia 'sopra' yang berarti melampaui dan juga bahasa Latin 'supra' yang berarti super.</p>
+              <img src="{{asset('portal')}}/assets/img/paduan suara/choir.png" alt="" class="img-fluid" width="100px">
+              <h4 align="center"><a class="stretched-link">Paduan Suara Campuran</a></h4>
+              <p>(yaitu dengan suara wanita dan suara pria). Jenis ini mungkin merupakan yang paling lazim, biasanya terdiri atas suara sopran, alto, tenor, dan bas, sering disingkat sebagai SATB.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div align="center" class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
             <div class="service-item position-relative">
-              <img src="{{asset('portal')}}/assets/img/paduan suara/note1.png" alt="" class="img-fluid" width="100px">
-              <h4 align="center"><a class="stretched-link">Alto</a></h4>
-              <p>Alto ini adalah salah satu jenis jangkauan suara dalam menyanyi yang berada lebih rendah di bawah suara sopran dan lebih tinggi daripada suara tenor.</p>
+              <img src="{{asset('portal')}}/assets/img/paduan suara/nita.png" alt="" class="img-fluid" width="100px">
+              <h4 align="center"><a class="stretched-link">Paduan Suara Wanita</a></h4>
+              <p>Jenis paduan suara ini menggunakan suara wanita yang terdiri dari sopran dan alto. Masing-masing dibagi menjadi dua atau lebih sering dikenal dengan singkatan SSAA.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div align="center" class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
             <div class="service-item position-relative">
-              <img src="{{asset('portal')}}/assets/img/paduan suara/note2.png" alt="" class="img-fluid" width="100px">
-              <h4 align="center"><a class="stretched-link">Tenor</a></h4>
-              <p>Tenor adalah jenis suara tinggi pada penyanyi laki-laki. Secara umum, suara tenor masuk di antara nada C3 sampai nada A4 dalam paduan suara dan sampai C5 untuk penyanyi solo. </p>
+              <img src="{{asset('portal')}}/assets/img/paduan suara/laki.png" alt="" class="img-fluid" width="100px">
+              <h4 align="center"><a class="stretched-link">Paduan Suara <br>Pria</a></h4>
+              <p>Kelompok paduan suara pria yang menggunakan bagian suara tenor, baritone, dan bas (TTBB). Ada juga jenis paduan suara pria yang lain yang disebut dengan SATB.  Jenis ini umumnya menggunakan suara sopran. </p>
             </div>
           </div><!-- End Service Item -->
 
           <div align="center" class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
             <div class="service-item position-relative">
-              <img src="{{asset('portal')}}/assets/img/paduan suara/note3.png" alt="" class="img-fluid" width="100px">
-              <h4 align="center"><a class="stretched-link">Bas</a></h4>
-              <p>Bass atau Bas adalah jenis suara terendah penyanyi pria, biasanya mempunyai jangkauan dari nada E2 sampai E4. Walaupun demikian, beberapa penyanyi yang nada rendahnya bisa sangat ekstrim. </p>
+              <img src="{{asset('portal')}}/assets/img/paduan suara/anak.png" alt="" class="img-fluid" width="100px">
+              <h4 align="center"><a class="stretched-link">Paduan Suara <br> Anak</a></h4>
+              <p>Paduan suara anak umumnya meliputi 2 suara SA atau 3 suara SSA. Ada juga yang menggunakan komposisi lebih dari itu. </p>
             </div>
           </div><!-- End Service Item -->
 
@@ -140,7 +144,7 @@
 
           <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
             <div class="img">
-              <img src="{{asset('portal')}}/assets/img/paduan suara/about.jpg" alt="" class="img-fluid">
+              <img src="{{asset('portal')}}/assets/img/paduan suara/wanita.png" alt="" class="img-fluid">
             </div>
           </div>
 
@@ -285,19 +289,19 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="{{asset('portal')}}/assets/img/paduan suara/1.jpg" class="img-fluid" alt="">
+              <img src="{{asset('portal')}}/assets/img/paduan suara/3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
-                <a href="{{asset('portal')}}/assets/img/paduan suara/1.jpg" title="App 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{asset('portal')}}/assets/img/paduan suara/3.jpg" title="App 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="{{asset('portal')}}/assets/img/paduan suara/2.jpg" class="img-fluid" alt="">
+              <img src="{{asset('portal')}}/assets/img/paduan suara/4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product 1</h4>
-                <a href="{{asset('portal')}}/assets/img/paduan suara/2.jpg" title="Product 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{asset('portal')}}/assets/img/paduan suara/4.jpg" title="Product 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -432,6 +436,11 @@
       </div>
     </section><!-- End Team Section -->
 
+    @include('partiels.footer')
+  <div class="footer-newsletter">
+    @yield('footer-newsletter')
+  </div>
+
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
@@ -447,6 +456,8 @@
 
   <!-- Template Main JS Filfe -->
   <script src="{{asset('portal')}}/assets/js/main.js"></script>
+
+  
 
 </body>
 

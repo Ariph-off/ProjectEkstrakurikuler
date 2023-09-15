@@ -1,7 +1,7 @@
 @extends('backend/panel')
 @section('content')
-<div class="content-wrapper">
-        <div class="container">
+
+<br>        
 <div class="card card-primary">
     <div class="card-header">
         <h3 class="card-title">Create Detail Pesanan</h3>
@@ -63,6 +63,6 @@
 
     </form>
 </div>
-        </div>
-</div>
+        
+
 @endsection

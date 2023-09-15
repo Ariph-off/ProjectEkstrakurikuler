@@ -2,28 +2,29 @@
 
 @section('content')
     <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
+
         <div class="container">
 <br>
 <div class="card card-primary">
     <div class="card-header">
         <h3 class="card-title">Edit Pelatih</h3>
     </div>
-    <form action="{{ route('pelatih.store') }}" method="POST">
+    <form action="{{ route('pelatih.update', $pelatih->id) }}" method="POST">
         @csrf
+        @method('put')
         <div class="card-body">
         <div class="form-group">
             <label for="exampleInputEmail1">Nama Pelatih</label>
-            <input type="text" class="form-control @error('nama_pelatih') is-invalid @enderror" id="exampleInputEmail1" placeholder="nama_pelatih" value="{{ old('nama_pelatih') }}"
+            <input type="text" class="form-control @error('nama_pelatih') is-invalid @enderror" id="exampleInputEmail1" placeholder="nama_pelatih" value="{{ old('nama_pelatih', $pelatih->nama_pelatih) }}"
             name="nama_pelatih">
         </div>
-        @error('nama_pelatih')
+        <!-- @error('nama_pelatih')
             <span class="text-danger">{{ $message }}</span>
-        @enderror
+        @enderror -->
 
         <div class="form-group">
             <label for="exampleInputEmail1">Id Ekstra</label>
-            <input type="number" class="form-control @error('id_ekstra') is-invalid @enderror" id="exampleInputEmail1" placeholder="id_ekstra" value="{{ old('id_ekstra') }}"
+            <input type="number" class="form-control @error('id_ekstra') is-invalid @enderror" id="exampleInputEmail1" placeholder="id_ekstra" value="{{ old('id_ekstra', $pelatih->id_ekstra) }}"
             name="id_ekstra">
         </div>
         @error('id_ekstra')
@@ -32,7 +33,7 @@
 
         <div class="form-group">
             <label for="exampleInputEmail1">No Hp</label>
-            <input type="text" class="form-control @error('no_ho') is-invalid @enderror" id="exampleInputEmail1" placeholder="no_ho" value="{{ old('no_ho') }}"
+            <input type="text" class="form-control @error('no_ho') is-invalid @enderror" id="exampleInputEmail1" placeholder="no_ho" value="{{ old('no_ho', $pelatih->no_ho) }}"
             name="no_ho">
         </div>
         @error('no_ho')
@@ -41,7 +42,7 @@
 
         <div class="form-group">
             <label for="exampleInputEmail1">Alamat</label>
-            <input type="text" class="form-control @error('alamat') is-invalid @enderror" id="exampleInputEmail1" placeholder="alamat" value="{{ old('alamat') }}"
+            <input type="text" class="form-control @error('alamat') is-invalid @enderror" id="exampleInputEmail1" placeholder="alamat" value="{{ old('alamat', $pelatih->alamat) }}"
             name="alamat">
         </div>
         @error('alamat')
@@ -74,6 +75,4 @@
     </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
 @endsection
