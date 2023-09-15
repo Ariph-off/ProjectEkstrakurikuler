@@ -96,55 +96,67 @@
                 <li class="nav-item">
                   <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Paduan suara</p>
+                    <p>Basket</p>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Paduan suara</p>
+                    <p>Hadrah</p>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Paduan suara</p>
+                    <p>Voli</p>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Paduan suara</p>
+                    <p>Futsal</p>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Paduan suara</p>
+                    <p>Sepak Bola</p>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Paduan suara</p>
+                    <p>Pramuka</p>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Paduan suara</p>
+                    <p>Tari</p>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Paduan suara</p>
+                    <p>Panahan</p>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Paduan suara</p>
+                    <p>Marching Band</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Silat</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Band</p>
                   </a>
                 </li>
               </ul>
