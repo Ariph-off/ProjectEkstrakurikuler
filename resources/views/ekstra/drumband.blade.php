@@ -159,10 +159,7 @@
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
             <div class="content px-xl-5">
-              <h3>Pertanyaan yang Sering Diajukan<strong>Questions</strong></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-              </p>
+              <h3>Pertanyaan tentang<strong>Ekstra Darching Band</strong></h3>
             </div>
 
             <div class="accordion accordion-flush px-xl-5" id="faqlist">
@@ -242,8 +239,9 @@
       <div class="container">
 
         <div class="section-header">
-          <h2>Portfolio</h2>
-          <p>Non hic nulla eum consequatur maxime ut vero memo vero totam officiis pariatur eos dolorum sed fug dolorem est possimus esse quae repudiandae. Dolorem id enim officiis sunt deserunt esse soluta consequatur quaerat</p>
+          <h2>Galery</h2>
+          <p>Galeri Pramuka SMKN 1 Bondowoso adalah tempat yang menampilkan berbagai pencapaian dan aktivitas Pramuka di sekolah tersebut. Dengan koleksi foto, perlengkapan, dan dokumentasi penting, galeri ini berfungsi untuk mempromosikan nilai-nilai Pramuka, menginspirasi siswa-siswi lainnya untuk bergabung, dan memperkuat keterampilan Pramuka. Selain itu, galeri ini juga sering digunakan untuk pertemuan dan acara-acara Pramuka lainnya.
+          </p>
         </div>
 
       </div>
@@ -263,7 +261,7 @@
           <div class="row g-0 portfolio-container">
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="{{ asset ('portal') }}/assets/img/paduan suara/1.jpg" class="img-fluid" alt="">
+              <img src="{{ asset ('portal') }}/assets/img/drumband/foto.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <a href="{{ asset ('portal') }}/assets/img/paduan suara/1.jpg" title="App 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>

@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
+
         <div class="container">
 <br>
 <div class="card card-primary">
@@ -75,6 +75,4 @@
     </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
 @endsection
