@@ -11,8 +11,13 @@ class PelatihController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
+        if($request->has('search')){
+            $pelatih = Pelatih::where('nama_pelatih','LIKE','%' .$request->search.'%')->paginate(5);
+        }else{
+            $pelatih = Pelatih::paginate(5);
+        }
         // $pelatih = DB::table("pelatih")->get();
         // $dataToView = [
         //     'pelatihs' => $pelatih
@@ -20,10 +25,8 @@ class PelatihController extends Controller
 
         // return view('pages.pelatih.index', $dataToView);
 
-        $pelatih = Pelatih::all(); // Mengambil semua data dari tabel menggunakan model
+        // $pelatih = Pelatih::all(); // Mengambil semua data dari tabel menggunakan model
         return view('pages.pelatih.index', ['pelatih' => $pelatih]);
-
-
     }
 
     /**
@@ -32,7 +35,6 @@ class PelatihController extends Controller
     public function create()
     {
         return view('pages.pelatih.create');
-        
     }
 
     /**
