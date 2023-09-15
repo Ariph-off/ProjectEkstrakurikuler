@@ -240,8 +240,12 @@
       <div class="container">
 
         <div class="section-header">
-          <h2>Portfolio</h2>
-          <p>Non hic nulla eum consequatur maxime ut vero memo vero totam officiis pariatur eos dolorum sed fug dolorem est possimus esse quae repudiandae. Dolorem id enim officiis sunt deserunt esse soluta consequatur quaerat</p>
+          <h2>GALERI</h2>
+          <p>Galeri Hadrah SMKN 1 Bondowoso adalah tempat yang menampilkan berbagai pencapaian dan aktivitas Hadrah
+            di sekolah tersebut. Dengan koleksi foto, perlengkapan, dan dokumentasi penting, galeri ini berfungsi untuk
+            mempromosikan nilai-nilai Hadrah, menginspirasi siswa-siswi lainnya untuk bergabung, dan memperkuat
+            keterampilan Hadrah. Selain itu, galeri ini juga sering digunakan untuk pertemuan dan acara-acara Hadrah
+            lainnya.</p>
         </div>
 
       </div>
@@ -252,118 +256,118 @@
 
           <ul class="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
+            <li data-filter=".filter-app">1</li>
+            <li data-filter=".filter-product">2</li>
+            <li data-filter=".filter-branding">3</li>
+            <li data-filter=".filter-books">4</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row g-0 portfolio-container">
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="{{ asset ('portal') }}/assets/img/hadra/foto hadrah.jpg  " class="img-fluid" alt="">
+              <img src="{{ asset ('portal') }}/assets/img/hadra/hadrah1.2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
-                <a href="{{ asset ('portal') }}/assets/img/paduan suara/1.jpg" title="App 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset ('portal') }}/assets/img/hadra/hadrah1.2.jpg" title="App 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="{{ asset ('portal') }}/assets/img/" class="img-fluid" alt="">
+              <img src="{{ asset ('portal') }}/assets/img/hadra/hadrah 1.4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product 1</h4>
-                <a href="{{ asset ('portal') }}/assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset ('portal') }}/assets/img/hadra/hadrah 1.4.jpg" title="Product 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
-              <img src="{{ asset ('portal') }}/assets/img/" class="img-fluid" alt="">
+              <img src="{{ asset ('portal') }}/assets/img/hadra/hadrah 1.5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Branding 1</h4>
-                <a href="{{ asset ('portal') }}/assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset ('portal') }}/assets/img/hadra/hadrah 1.5.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
-              <img src="{{ asset ('portal') }}/assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+              <img src="{{ asset ('portal') }}/assets/img/hadra/hadrah 1.6.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Books 1</h4>
-                <a href="{{ asset ('portal') }}/assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset ('portal') }}/assets/img/hadra/hadrah 1.6.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="{{ asset ('portal') }}/assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+              <img src="{{ asset ('portal') }}/assets/img/hadra/hadrah 1.7.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
-                <a href="{{ asset ('portal') }}/assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset ('portal') }}/assets/img/hadra/hadrah 1.7.jpg" title="App 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="{{ asset ('portal') }}/assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+              <img src="{{ asset ('portal') }}/assets/img/hadra/hadrah 1.8.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product 2</h4>
-                <a href="{{ asset ('portal') }}/assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset ('portal') }}/assets/img/hadra/hadrah 1.8.jpg" title="Product 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
-              <img src="{{ asset ('portal') }}/assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+              <img src="{{ asset ('portal') }}/assets/img/hadra/hadrah 1.9.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Branding 2</h4>
-                <a href="{{ asset ('portal') }}/assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset ('portal') }}/assets/img/hadra/hadrah 1.9.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
-              <img src="{{ asset ('portal') }}/assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+              <img src="{{ asset ('portal') }}/assets/img/hadra/hadrah 2.0.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Books 2</h4>
-                <a href="{{ asset ('portal') }}/assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset ('portal') }}/assets/img/hadra/hadrah 2.0.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="{{ asset ('portal') }}/assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+              <img src="{{ asset ('portal') }}/assets/img/hadra/hadrah 2.1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 3</h4>
-                <a href="{{ asset ('portal') }}/assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset ('portal') }}/assets/img/hadra/hadrah 2.1.jpg" title="App 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="{{ asset ('portal') }}/assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+              <img src="{{ asset ('portal') }}/assets/img/hadra/foto hadrah.jpg " class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product 3</h4>
-                <a href="{{ asset ('portal') }}/assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset ('portal') }}/assets/img/hadra/foto hadrah.jpg" title="Product 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
-              <img src="{{ asset ('portal') }}/assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+              <img src="{{ asset ('portal') }}/assets/img/hadra/hadrah 2.2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Branding 3</h4>
-                <a href="{{ asset ('portal') }}/assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset ('portal') }}/assets/img/hadra/hadrah 2.2.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
-              <img src="{{ asset ('portal') }}/assets/img/portfolio/" class="img-fluid" alt="">
+              <img src="{{ asset ('portal') }}/assets/img/hadra/hadrah 2.3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Books 3</h4>
-                <a href="{{ asset ('portal') }}/assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset ('portal') }}/assets/img/hadra/hadrah 2.3.jpg" title="Branding 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -451,20 +455,20 @@
       @yield('footer-newsletter')
     </div>
 
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
 
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
-    <script src="{{ asset ('portal') }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset ('portal') }}/assets/vendor/aos/aos.js"></script>
-    <script src="{{ asset ('portal') }}/assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="{{ asset ('portal') }}/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="{{ asset ('portal') }}/assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="{{ asset ('portal') }}/assets/vendor/php-email-form/validate.js"></script>
-
+    <script src="{{asset('portal')}}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{asset('portal')}}/assets/vendor/aos/aos.js"></script>
+    <script src="{{asset('portal')}}/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="{{asset('portal')}}/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="{{asset('portal')}}/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="{{asset('portal')}}/assets/vendor/php-email-form/validate.js"></script>
     <!-- Template Main JS File -->
-    <script src="{{ asset ('portal') }}/assets/js/main.js"></script>
+    <script src="{{asset('portal')}}/assets/js/main.js"></script>
 
 </body>
 
