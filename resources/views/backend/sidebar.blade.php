@@ -73,95 +73,12 @@
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
             <li class="nav-item menu-open">
-              <a href="#" class="nav-link active">
-                <i class="nav-icon fas fa-users "></i>
-                <p>
-                  Data siswa
-                  <i class="right fas fa-angle-left"></i>
-                </p>
+            <li class="nav-item">
+              <a href="{{route ('pelatih.index') }}" class="nav-link">
+                <i class="nav-icon fas fa-sharp fa-regular fa-users-line"></i>
+                <p>Extra</p>
               </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="#" class="nav-link active">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>PMR</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Paduan suara</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Basket</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Hadrah</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Voli</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Futsal</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Sepak Bola</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Pramuka</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Tari</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Panahan</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Marching Band</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Silat</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Band</p>
-                  </a>
-                </li>
-              </ul>
             </li>
-
             <li class="nav-item">
               <a href="{{route ('pelatih.index') }}" class="nav-link">
                 <i class="nav-icon fas fa-sharp fa-regular fa-users-line"></i>
