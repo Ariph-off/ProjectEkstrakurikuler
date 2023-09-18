@@ -3,6 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PelatihController;
+use App\Http\Controllers\EkstraController;
+use App\Http\Controllers\PembinaController;
+
+use App\Models\Pembina;
 
 /*
 |--------------------------------------------------------------------------
@@ -85,6 +89,10 @@ Route::get('/band', function () {
 
 
 Route::resource('pelatih', PelatihController::class);
+Route::resource('ekstra', EkstraController::class);
+Route::resource('pembina', PembinaController::class);
+
+
 
 
 Route::get('/admin', function () {

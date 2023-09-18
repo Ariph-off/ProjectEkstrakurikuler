@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Padus extends Model
+class Ekstra extends Model
 {
     use HasFactory, SoftDeletes;
-    protected $table = 'siswa';
+    protected $table = 'ekstra';
 }

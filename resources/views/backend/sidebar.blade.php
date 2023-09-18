@@ -11,9 +11,20 @@
         <li class="nav-item d-none d-sm-inline-block">
           <a href="index3.html" class="nav-link">Home</a>
         </li>
-        <li class="nav-item d-none d-sm-inline-block">
-          <a href="{{ route('pelatih.create') }}" class="nav-link">Create</a>
-        </li>
+        <div class="dropdown">
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Tambah Data
+                    </a>
+
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{{ route('ekstra.create') }}">Ekstra</a>
+                        <a class="dropdown-item" href="{{ route('pembina.create') }}">Pembina</a>
+                        <a class="dropdown-item" href="{{ route('pelatih.create') }}">Pelatih</a>
+                        <a class="dropdown-item" href="#">Pembali</a>
+                        <a class="dropdown-item" href="#">Transaksi</a>
+                        <a class="dropdown-item" href="#">Pembayaran</a>
+                    </div>
+                </div>
       </ul>
 
       <!-- Right navbar links -->
@@ -74,13 +85,13 @@
                with font-awesome or any other icon font library -->
             <li class="nav-item menu-open">
             <li class="nav-item">
-              <a href="{{route ('pelatih.index') }}" class="nav-link">
+              <a href="{{route ('ekstra.index') }}" class="nav-link">
                 <i class="nav-icon fas fa-sharp fa-regular fa-users-line"></i>
                 <p>Extra</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="{{route ('pelatih.index') }}" class="nav-link">
+              <a href="{{route ('pembina.index') }}" class="nav-link">
                 <i class="nav-icon fas fa-sharp fa-regular fa-users-line"></i>
                 <p>Pembina</p>
               </a>

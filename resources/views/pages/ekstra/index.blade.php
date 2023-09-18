@@ -4,7 +4,7 @@
 <br>
 <div class="card">
     <div class="card-header">
-        <h3 class="card-title">Data Paduan Suara</h3>
+        <h3 class="card-title">Data Ekstra</h3>
     </div>
     <br>
     <!-- <div class="container">
@@ -26,26 +26,20 @@
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Nama Pelatih</th>
-                    <th>Ekstra</th>
-                    <th>No HP</th>
-                    <th>Alamat</th>
+                    <th>Nama Ekstra</th>
+                    <th>Kategori</th>
                     <th>Action</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach ($pelatih as $pelatihs)
+                @foreach ($ekstra as $ekstras)
                 <tr>
                     <td>{{ $loop->iteration }}</td>
-                    <td>{{ $pelatihs->nama_pelatih }}</td>
-                    <td>{{ $pelatihs->id_ekstra }}</td>
-                    <td>{{ $pelatihs->no_ho }}</td>
-                    <td>{{ $pelatihs->alamat }}</td>
+                    <td>{{ $ekstras->nama_ekstra }}</td>
+                    <td>{{ $ekstras->id_kategori }}</td>
                     <td>
-                        <!-- <a href="" class="btn btn-success"><i class="fas fa-pen-nib"></i>Edit</a>
-                                <a href="" class="btn btn-danger"><i class="fas fa-trash"></i>Delete</a> -->
-                        <form action="{{ route('pelatih.destroy', $pelatihs->id) }}" method="POST">
-                            <a class="btn btn-success" href="{{ route('pelatih.edit', $pelatihs->id) }}"><i class="fas fa-pen-nib"></i></a>
+                        <form action="{{ route('ekstra.destroy', $ekstras->id) }}" method="POST">
+                            <a class="btn btn-success" href="{{ route('ekstra.edit', $ekstras->id) }}"><i class="fas fa-pen-nib"></i></a>
                             @csrf
                             @method('DELETE')
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></button>
