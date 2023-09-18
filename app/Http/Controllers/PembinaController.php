@@ -18,14 +18,7 @@ class PembinaController extends Controller
         }else{
             $pembina = Pembina::paginate(5);
         }
-        // $pelatih = DB::table("pelatih")->get();
-        // $dataToView = [
-        //     'pelatihs' => $pelatih
-        // ];
-
-        // return view('pages.pelatih.index', $dataToView);
-
-        // $pelatih = Pelatih::all(); // Mengambil semua data dari tabel menggunakan model
+        
         return view('pages.pembina.index', ['pembina' => $pembina]);
     }
 

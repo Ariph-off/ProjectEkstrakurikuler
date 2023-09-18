@@ -20,7 +20,7 @@
                         <a class="dropdown-item" href="{{ route('ekstra.create') }}">Ekstra</a>
                         <a class="dropdown-item" href="{{ route('pembina.create') }}">Pembina</a>
                         <a class="dropdown-item" href="{{ route('pelatih.create') }}">Pelatih</a>
-                        <a class="dropdown-item" href="#">Pembali</a>
+                        <a class="dropdown-item" href="{{ route('siswa.create') }}">Siswa</a>
                         <a class="dropdown-item" href="#">Transaksi</a>
                         <a class="dropdown-item" href="#">Pembayaran</a>
                     </div>
@@ -100,6 +100,12 @@
               <a href="{{route ('pelatih.index') }}" class="nav-link">
                 <i class="nav-icon fas fa-sharp fa-regular fa-users-line"></i>
                 <p>Pelatih</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route ('siswa.index') }}" class="nav-link">
+                <i class="nav-icon fas fa-sharp fa-regular fa-users-line"></i>
+                <p>Siswa</p>
               </a>
             </li>
             <li class="nav-item">
