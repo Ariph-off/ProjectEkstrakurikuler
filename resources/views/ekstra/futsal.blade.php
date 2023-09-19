@@ -298,7 +298,7 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
-              <img src="{{ asset('portal') }}/assets/img/futsal/12.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('portal') }}/assets/img/futsal/fotosaya.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Branding 1</h4>
                 <a href="{{ asset('portal') }}/assets/img/futsal/12.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
@@ -325,7 +325,7 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="{{ asset('portal') }}/assets/img/futsal/12.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('portal') }}/assets/img/futsal/saya.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Product 2</h4>
                 <a href="{{ asset('portal') }}/assets/img/futsal/12.jpg" title="Product 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
@@ -343,19 +343,19 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
-              <img src="{{ asset('portal') }}/assets/img/futsal/12.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('portal') }}/assets/img/futsal/13.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Books 2</h4>
-                <a href="{{ asset('portal') }}/assets/img/futsal/12.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset('portal') }}/assets/img/futsal/fotosaya.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="{{ asset('portal') }}/assets/img/futsal/12.jpg" class="img-fluid" alt="">
+              <img src="{{ asset('portal') }}/assets/img/futsal/fotosaya.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 3</h4>
-                <a href="{{ asset('portal') }}/assets/img/futsal/12.jpg" title="App 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset('portal') }}/assets/img/futsal/saya.jpg" title="App 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -373,7 +373,7 @@
               <img src="{{ asset('portal') }}/assets/img/futsal/13.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Branding 3</h4>
-                <a href="{{ asset('portal') }}/assets/img/futsal/13.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{ asset('portal') }}/assets/img/futsal/saya.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
