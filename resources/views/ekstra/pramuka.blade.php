@@ -206,7 +206,7 @@
                                 kepada siswa atau peserta untuk terlibat dalam berbagai kegiatan yang terkait dengan
                                 Gerakan Pramuka
                                 Indonesia. <br>
-                                berikut pertanyaan yang sering ditanyakan dalam ekstrakurikuler pramuka.
+                                berikut pertanyaan yang sering ditanyakan di dalam ekstrakurikuler pramuka.
                             </p>
                         </div>
 
