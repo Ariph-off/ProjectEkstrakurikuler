@@ -13,7 +13,7 @@
 
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/voli.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Drs.Didik Cahyono</h4>
                 <span> Ekstrakurikuler Voli</span>
@@ -30,7 +30,7 @@
 
           <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/da.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Moh. Ghandy Yudha, S.Pd I</h4>
                 <span>Pembina Ekstrakurikuler Pramuka</span>
@@ -47,7 +47,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/pmr.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Nanang Kristanto, SE</h4>
                 <span>Pembina Ekstrakurikuler PMR</span>
@@ -64,7 +64,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/panahan.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Achmad Muzakki, S.Pd</h4>
                 <span>Pembina Ekstrakurikuler Panahan</span>
@@ -81,7 +81,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/padus.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Agung Rosarya E., S.Pd</h4>
                 <span>Pembina Ekstrakurikuler Paduan Suara</span>
@@ -98,7 +98,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/band.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>AW.Hendro P.W., S.Sn</h4>
                 <span>Pembina Ekstrakurikuler Band Musik</span>
@@ -115,7 +115,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/fb.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Drs. Dwi Arianto, M.M</h4>
                 <span>Pembina Ekstrakurikuler Futsal</span>
@@ -132,7 +132,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/tari.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>S.Mudtrikatul U., S.Pd</h4>
                 <span>Pembina Ekstrakurikuler Tari</span>
@@ -149,7 +149,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/fb.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>M. Ridwan Saidi, S.Pd</h4>
                 <span>Pembina Ekstrakurikuler Sepak Bola</span>
@@ -166,7 +166,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/hadrah.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>A. Hamam Al Fadil, S.Ag</h4>
                 <span>Pembina Ekstrakurikuler Hadrah</span>
@@ -183,7 +183,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/basket.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>A. Soegianto, S.Pd</h4>
                 <span>Pembina Ekstrakurikuler Bola Basket</span>
@@ -200,7 +200,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/db.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Arif Subagyo, S.Pd</h4>
                 <span>Pembina Ekstrakurikuler Drumb Band</span>
@@ -217,7 +217,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/basket.png" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>A. Soegianto, S.Pd</h4>
                 <span>Pembina Ekstrakurikuler Bulu Tangkis</span>
@@ -234,9 +234,9 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('assets')}}/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('assets')}}/assets/img/pembina/silat.png" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Arif Subagyo, S.Pd</h4>
+                <h4>Deni Putra Pratama, S.Pd</h4>
                 <span>Pembina Ekstrakurikuler Silat</span>
                 <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
                 <div class="social">

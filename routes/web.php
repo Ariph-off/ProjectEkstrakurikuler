@@ -34,17 +34,17 @@ Route::get('/', function () {
 Route::get('/landing', function () {
     return view('frontend/landing');
 });
-Route::get('/landing#about', function () {
-    return view('frontend/landing');
-});
-Route::get('/ekstra', function () {
+// Route::get('/landing#about', function () {
+//     return view('frontend/landing');
+// });
+Route::get('/userekstra', function () {
     return view('frontend/ekstra');
 });
-Route::get('/prestasi', function () {
+Route::get('/userprestasi', function () {
     return view('frontend/prestasi');
 });
-Route::get('/pembina', function () {
-    return view('frontend/pembina');
+Route::get('/userpembina', function () {
+    return view('frontend/userpembina');
 });
 Route::get('/userpelatih', function () {
     return view('frontend/userpelatih');

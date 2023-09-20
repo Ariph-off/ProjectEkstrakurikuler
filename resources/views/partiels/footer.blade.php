@@ -11,37 +11,32 @@
                         SMKN 1 Bondowoso<br>
                         Jalan HOS Cokroaminoto No. 110, Kademangan, Bondowoso<br>
                         Jawa Timur, Indonesia <br><br>
-                        <strong>Phone:</strong> (+62) 823-3410-5375<br>
-                        <strong>Email:</strong>
-                        info@smkn1bws.sch.id<br>
                     </p>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Useful Links</h4>
+                    <h4>Servis</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        <p><strong>Phone:</strong> (+62) 823-3410-5375<br>
+                        <strong>Email:</strong>
+                        info@smkn1bws.sch.id</p>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Services</h4>
+                    <h4>Link</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/landing">Beranda</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/userekstra">Ekstra</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/userpembina">Pembina</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/userpelatih">Pelatih</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/prestasi">Prestasi</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Social Networks</h4>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                    <h4>Sosial Media</h4>
+                    <p>Ikuti Sosial media kami untuk info lebih lanjut di <strong>EkstraSmakensa</strong></p>
                     <div class="social-links mt-3">
                         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -57,7 +52,7 @@
 
     <div class="container footer-bottom clearfix">
         <div class="copyright">
-            &copy; Copyright <strong><span>EkstraSmakensa</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>EkstraSmakensa</span></strong>
         </div>
         <div class="credits">
             <!-- All the links in the footer should remain intact. -->
