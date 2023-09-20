@@ -254,7 +254,7 @@
 
         <div class="section-header">
           <h2>Portfolio</h2>
-          <p>Galeri Sepak Bola SMKN 1 Bondowoso adalah tempat yang menampilkan berbagai pencapaian dan aktivitas Sepak bola di sekolah tersebut. Dengan koleksi foto, perlengkapan, dan dokumentasi penting, galeri ini berfungsi untuk mempromosikan nilai-nilai Sepak Bola, menginspirasi siswa-siswi lainnya untuk bergabung.</p>
+          <p>Galeri Sepak Bola SMKN 1 Bondowoso adalah tempat yang menampilkan berbagai pencapaian dan aktivitas Sepak bola di sekolah tersebut. Dengan koleksi foto, perlengkapan, dan dokumentasi penting, galeri ini berfungsi untuk mempromosikan nilai-nilai Sepak Bola, menginspirasi siswa-siswi lainnya untuk bergabung di Ekstra Sepak Bola.</p>
         </div>
 
       </div>
