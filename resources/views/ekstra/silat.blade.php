@@ -262,7 +262,7 @@
 
         <div class="section-header">
           <h2>Portfolio</h2>
-          <p> Berikut beberapa Dokumentasi dari ekstrakulikuler Pencak Silat</p>
+          <p> Berikut beberapa Dokumentasi dari ekstrakulikuler Pencak Silat yang ada di SMKN1 BONDOWOSO</p>
         </div>
 
       </div>
