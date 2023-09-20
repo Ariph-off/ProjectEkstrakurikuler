@@ -4,7 +4,7 @@
 <br>
 <div class="card">
     <div class="card-header">
-        <h3 class="card-title">Data Ekstra</h3>
+        <h3 class="card-title">Data Pembina</h3>
     </div>
     <br>
     <!-- <div class="container">
@@ -14,7 +14,7 @@
     <!-- /.card-header -->
     <form class="form-inline">
         <div class="form-group">
-            <form action="/ekstra" method="get">
+            <form action="/pelatih" method="get">
                 <input type="search" id="inputPassword6" name="search" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
                 <button class="btn btn-outline-secondary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
@@ -26,20 +26,24 @@
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Nama Ekstra</th>
-                    <th>Kategori</th>
+                    <th>Nama </th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Level</th>
                     <th>Action</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach ($ekstra as $ekstras)
+                @foreach ($user as $users)
                 <tr>
                     <td>{{ $loop->iteration }}</td>
-                    <td>{{ $ekstras->nama_ekstra }}</td>
-                    <td>{{ $ekstras->id_kategori }}</td>
+                    <td>{{ $users->name }}</td>
+                    <td>{{ $users->email }}</td>
+                    <td>{{ $users->password }}</td>
+                    <td>{{ $users->level }}</td>
                     <td>
-                        <form action="{{ route('ekstra.destroy', $ekstras->id) }}" method="POST">
-                            <a class="btn btn-success" href="{{ route('ekstra.edit', $ekstras->id) }}"><i class="fas fa-pen-nib"></i></a>
+                        <form action="{{ route('user.destroy', $users->id) }}" method="POST">
+                            <a class="btn btn-success" href="{{ route('user.edit', $users->id) }}"><i class="fas fa-pen-nib"></i></a>
                             @csrf
                             @method('DELETE')
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></button>

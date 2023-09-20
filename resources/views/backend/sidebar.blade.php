@@ -16,8 +16,11 @@
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="{{ route('ekstra.create') }}">Ekstra</a>
                         <a class="dropdown-item" href="{{ route('pembina.create') }}">Pembina</a>
+                        
                         <a class="dropdown-item" href="{{ route('pelatih.create') }}">Pelatih</a>
                         <a class="dropdown-item" href="{{ route('siswa.create') }}">Siswa</a>
+                        <a class="dropdown-item" href="#">Transaksi</a>
+                        <a class="dropdown-item" href="#">Pembayaran</a>
                     </div>
                 </div>
       </ul>
@@ -92,6 +95,12 @@
               </a>
             </li>
             <li class="nav-item">
+              <a href="{{route ('kategori.index') }}" class="nav-link">
+                <i class="nav-icon fas fa-sharp fa-regular fa-users-line"></i>
+                <p>Kategori</p>
+              </a>
+            </li>
+            <li class="nav-item">
               <a href="{{route ('pelatih.index') }}" class="nav-link">
                 <i class="nav-icon fas fa-sharp fa-regular fa-users-rays"></i>
                 <p>Pelatih</p>
@@ -104,9 +113,15 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">
+              <a href="{{route ('jadwal.index') }}" class="nav-link">
                 <i class="nav-icon fas fa-sharp fa-light fa-calendar"></i>
                 <p>Jadwal</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route ('user.index') }}" class="nav-link">
+                <i class="nav-icon fas fa-sharp fa-light fa-calendar"></i>
+                <p>User</p>
               </a>
             </li>
             <li class="nav-item">

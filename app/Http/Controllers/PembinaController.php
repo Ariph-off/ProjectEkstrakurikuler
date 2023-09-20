@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 use App\Models\Pembina;
+use App\Models\Ekstra;
+
 use Illuminate\Http\Request;
 use DB;
 
@@ -27,7 +29,9 @@ class PembinaController extends Controller
      */
     public function create()
     {
-        return view('pages.pembina.create');
+        $ekstra = Ekstra::get();
+
+        return view('pages.pembina.create', ['ekstra' => $ekstra]);
         
     }
 
