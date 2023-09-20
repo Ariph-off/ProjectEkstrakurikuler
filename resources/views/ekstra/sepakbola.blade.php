@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portal Paduan Suara - Home 1</title>
+  <title>Portal Sepak Bola - Home 1</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -102,8 +102,8 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
             <div class="service-item position-relative">
               <img src="{{asset('portal')}}/assets/img/sepak bola/soccer.png" width="100px" height="100px" line-right="50px">
-              <h4><a href="" class="stretched-link">Kiper</a></h4>
-              <p>Kiper (dalam sepak bola) adalah salah satu posisi dalam tim sepak bola. Tugas dari seorang kiper adalah mencegah masuknya bola kedalam gawang.
+              <h4><a href="" class="stretched-link">Kiper </a></h4>
+              <p>penjaga gawang atau Kiper (dalam sepak bola) adalah salah satu posisi dalam tim sepak bola. Tugas dari seorang kiper adalah mencegah masuknya bola kedalam gawang.
               </p>
             </div>
           </div><!-- End Service Item -->
@@ -120,7 +120,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
             <div class="service-item position-relative">
               <img src="{{asset('portal')}}/assets/img/sepak bola/footbal (1).png" width="100px" height="100px" line-right="50px">
-              <h4><a href="" class="stretched-link">Pemain Tengah atau Gelandang</a></h4>
+              <h4><a href="" class="stretched-link"> Gelandang</a></h4>
               <p>Berada tepat di depan garis pertahanan posisi ini bertugas untuk menghalau serangan lawan. Posisinya yang kritis membuat gelandang bertahan disebut sebagai inisiator serangan. Gelandang Tengah. Tugas gelandang tengah adalah meneruskan tendangan dari bek pada striker untuk mencetak gol.</p>
             </div>
           </div><!-- End Service Item -->
@@ -129,7 +129,7 @@
             <div class="service-item position-relative">
               <img src="{{asset('portal')}}/assets/img/sepak bola/soccer-player.png" width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">Pemain Depan atau Penyerang</a></h4>
-              <p>emain depan atau penyerang adalah pemain yang bertugas untuk menyerang gawang lawan dan mencetak gol. Penyerang biasanya berjumlah dua atau tiga orang, terdiri dari penyerang tengah, penyerang bayangan, dan penyerang sayap. Penyerang tengah harus memiliki kemampuan fisik, finishing, dan posisi yang baik.</p>
+              <p>pemain depan atau penyerang adalah pemain yang bertugas untuk menyerang gawang lawan dan mencetak gol. Penyerang biasanya berjumlah dua atau tiga orang, terdiri dari penyerang tengah, penyerang bayangan, dan penyerang sayap. Penyerang tengah harus memiliki kemampuan fisik, finishing, dan posisi yang baik.</p>
             </div>
           </div><!-- End Service Item -->
 
