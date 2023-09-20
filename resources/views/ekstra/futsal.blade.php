@@ -61,7 +61,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="/ekstra">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="/userekstra">Beranda</a></li>
           <li><a class="nav-link scrollto" href="index.html#featured-services">Services</a></li>
           <li><a class="nav-link scrollto" href="index.html#cta">About</a></li>
           <li><a class="nav-link scrollto" href="index.html#faq">Quations</a></li>
@@ -69,7 +69,7 @@
           <li><a class="nav-link scrollto" href="index.html#team">Struktur</a></li>
         </ul>
       </nav>
-
+      
       <!-- <a class="btn-getstarted scrollto" href="index.html#about">Get Started</a> -->
 
     </div>

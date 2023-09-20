@@ -9,14 +9,14 @@
     <nav id="navbar" class="navbar">
       <ul>
         <li><a class="nav-link scrollto active" style="color: white;" href="/landing">Beranda</a></li>
-        <li><a class="nav-link scrollto" href="/ekstra">Ekstra</a></li>
-        <li><a class="nav-link scrollto" href="/pembina">Pembina</a></li>
+        <li><a class="nav-link scrollto" href="/userekstra">Ekstra</a></li>
+        <li><a class="nav-link scrollto" href="/userpembina">Pembina</a></li>
         <li><a class="nav-link scrollto" href="/userpelatih">Pelatih</a></li>
-        <li><a class="nav-link scrollto" href="/prestasi">Prestasi</a></li>
+        <li><a class="nav-link scrollto" href="/userprestasi">Prestasi</a></li>
         <li class="dropdown"><a href="#"><span>lainnya</span> <i class="bi bi-chevron-down"></i></a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/login">Login (admin)</a></li>
-            <li><a class="dropdown-item" href="#">Hubungi Kami</a></li>
+            <li><a class="dropdown-item" href="https://www.instagram.com/smkn1bws.official/" target="_blank">Hubungi Kami</a></li>
             <li>
         </ul>
         {{-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> --}}

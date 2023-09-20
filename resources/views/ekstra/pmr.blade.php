@@ -56,7 +56,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="/ekstra">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="/userekstra">Beranda</a></li>
           <li><a class="nav-link scrollto" href="index.html#featured-services">Services</a></li>
           <li><a class="nav-link scrollto" href="index.html#cta">About</a></li>
           <li><a class="nav-link scrollto" href="index.html#faq">Quations</a></li>
