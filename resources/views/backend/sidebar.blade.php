@@ -8,9 +8,6 @@
         <li class="nav-item">
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
-        <li class="nav-item d-none d-sm-inline-block">
-          <a href="index3.html" class="nav-link">Home</a>
-        </li>
         <div class="dropdown">
                     <a class="btn btn-light dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                         Tambah Data
@@ -21,8 +18,6 @@
                         <a class="dropdown-item" href="{{ route('pembina.create') }}">Pembina</a>
                         <a class="dropdown-item" href="{{ route('pelatih.create') }}">Pelatih</a>
                         <a class="dropdown-item" href="{{ route('siswa.create') }}">Siswa</a>
-                        <a class="dropdown-item" href="#">Transaksi</a>
-                        <a class="dropdown-item" href="#">Pembayaran</a>
                     </div>
                 </div>
       </ul>
@@ -86,19 +81,19 @@
             <li class="nav-item menu-open">
             <li class="nav-item">
               <a href="{{route ('ekstra.index') }}" class="nav-link">
-                <i class="nav-icon fas fa-sharp fa-regular fa-users-line"></i>
+                <i class="nav-icon fas fa-sharp fa-regular fa-ranking-star"></i>
                 <p>Extra</p>
               </a>
             </li>
             <li class="nav-item">
               <a href="{{route ('pembina.index') }}" class="nav-link">
-                <i class="nav-icon fas fa-sharp fa-regular fa-users-line"></i>
+                <i class="nav-icon fas fa-sharp fa-regular fa-users-rectangle"></i>
                 <p>Pembina</p>
               </a>
             </li>
             <li class="nav-item">
               <a href="{{route ('pelatih.index') }}" class="nav-link">
-                <i class="nav-icon fas fa-sharp fa-regular fa-users-line"></i>
+                <i class="nav-icon fas fa-sharp fa-regular fa-users-rays"></i>
                 <p>Pelatih</p>
               </a>
             </li>
