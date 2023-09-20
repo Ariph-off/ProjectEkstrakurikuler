@@ -4,12 +4,18 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PelatihController;
 use App\Http\Controllers\EkstraController;
+use App\Http\Controllers\JadwalController;
 use App\Http\Controllers\PembinaController;
 use App\Http\Controllers\SiswaController;
+use App\Http\Controllers\UsersController;
+use App\Http\Controllers\KategoriController;
+
+
 
 
 use App\Models\Pembina;
 use App\Models\Siswa;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -95,6 +101,10 @@ Route::resource('pelatih', PelatihController::class);
 Route::resource('ekstra', EkstraController::class);
 Route::resource('pembina', PembinaController::class);
 Route::resource('siswa', SiswaController::class);
+Route::resource('user', UsersController::class);
+Route::resource('jadwal', JadwalController::class);
+Route::resource('kategori', KategoriController::class);
+
 
 
 

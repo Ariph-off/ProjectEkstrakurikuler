@@ -21,13 +21,19 @@
         @enderror
 
         <div class="form-group">
-            <label for="exampleInputEmail1">Ekstra</label>
-            <input type="text" class="form-control @error('id_ekstra') is-invalid @enderror" id="exampleInputEmail1" placeholder="id_ekstra" value="{{ old('id_ekstra') }}"
-            name="id_ekstra">
-        </div>
-        @error('id_ekstra')
-            <span class="text-danger">{{ $message }}</span>
-        @enderror
+                            <label for="exampleInputEmail1">Ekstra </label>
+                            <select name="id_ekstra" id="" class="form-control select2">
+                                <option value="">-- Pilih Ekstra --</option>
+                                @foreach ($ekstra as $ekstras)
+                                    <option value="{{ $ekstras->id }}"> {{ $ekstras->nama_ekstra }}
+                                    </option>
+                                @endforeach
+                            </select>
+                        </div>
+                        @error('nama')
+                            <span class="text-danger">{{ $message }}</span>
+                        @enderror
+
 
         <div class="form-group">
             <label for="exampleInputEmail1">No Hp</label>

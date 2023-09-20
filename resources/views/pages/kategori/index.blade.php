@@ -4,7 +4,7 @@
 <br>
 <div class="card">
     <div class="card-header">
-        <h3 class="card-title">Data Ekstra</h3>
+        <h3 class="card-title">Data kategori</h3>
     </div>
     <br>
     <!-- <div class="container">
@@ -14,7 +14,7 @@
     <!-- /.card-header -->
     <form class="form-inline">
         <div class="form-group">
-            <form action="/ekstra" method="get">
+            <form action="/kategori" method="get">
                 <input type="search" id="inputPassword6" name="search" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
                 <button class="btn btn-outline-secondary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
@@ -26,20 +26,20 @@
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Nama Ekstra</th>
                     <th>Kategori</th>
+                    <th>keterangan</th>
                     <th>Action</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach ($ekstra as $ekstras)
+                @foreach ($kategori as $kategoris)
                 <tr>
                     <td>{{ $loop->iteration }}</td>
-                    <td>{{ $ekstras->nama_ekstra }}</td>
-                    <td>{{ $ekstras->id_kategori }}</td>
+                    <td>{{ $kategoris->nama_kategori }}</td>
+                    <td>{{ $kategoris->keterangan }}</td>
                     <td>
-                        <form action="{{ route('ekstra.destroy', $ekstras->id) }}" method="POST">
-                            <a class="btn btn-success" href="{{ route('ekstra.edit', $ekstras->id) }}"><i class="fas fa-pen-nib"></i></a>
+                        <form action="{{ route('kategori.destroy', $kategoris->id) }}" method="POST">
+                            <a class="btn btn-success" href="{{ route('kategori.edit', $kategoris->id) }}"><i class="fas fa-pen-nib"></i></a>
                             @csrf
                             @method('DELETE')
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></button>

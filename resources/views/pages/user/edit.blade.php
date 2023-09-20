@@ -9,44 +9,44 @@
     <div class="card-header">
         <h3 class="card-title">Edit Pelatih</h3>
     </div>
-    <form action="{{ route('siswa.update', $siswa->id) }}" method="POST">
+    <form action="{{ route('user.update', $user->id) }}" method="POST">
         @csrf
         @method('put')
         <div class="card-body">
         <div class="form-group">
-            <label for="exampleInputEmail1">Nama Siswa</label>
-            <input type="text" class="form-control @error('nama_siswa') is-invalid @enderror" id="exampleInputEmail1" placeholder="nama_siswa" value="{{ old('nama_siswa', $siswa->nama_siswa) }}"
-            name="nama_siswa">
+            <label for="exampleInputEmail1">Nama </label>
+            <input type="text" class="form-control @error('name') is-invalid @enderror" id="exampleInputEmail1" placeholder="name" value="{{ old('name', $user->name) }}"
+            name="name">
         </div>
-        @error('nama_siswa')
+        @error('name')
             <span class="text-danger">{{ $message }}</span>
         @enderror
 
         <div class="form-group">
-            <label for="exampleInputEmail1">Kelas</label>
-            <input type="number" class="form-control @error('id_kelas') is-invalid @enderror" id="exampleInputEmail1" placeholder="id_kelas" value="{{ old('id_kelas', $siswa->id_kelas) }}"
-            name="id_kelas">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="text" class="form-control @error('email') is-invalid @enderror" id="exampleInputemail1" placeholder="email" value="{{ old('email', $user->email) }}"
+            name="email">
         </div>
-        @error('id_kelas')
+        @error('email')
             <span class="text-danger">{{ $message }}</span>
         @enderror
 
         <div class="form-group">
-            <label for="exampleInputEmail1">Nisn</label>
-            <input type="text" class="form-control @error('nisn') is-invalid @enderror" id="exampleInputEmail1" placeholder="nisn" value="{{ old('nisn', $siswa->nisn) }}"
-            name="nisn">
+            <label for="exampleInputEmail1">Password</label>
+            <input type="text" class="form-control @error('password') is-invalid @enderror" id="exampleInputEmail1" placeholder="password" value="{{ old('password', $user->password) }}"
+            name="password">
         </div>
-        @error('nisn')
+        @error('password')
             <span class="text-danger">{{ $message }}</span>
         @enderror
 
 
         <div class="form-group">
-            <label for="exampleInputEmail1">No Hp</label>
-            <input type="text" class="form-control @error('no_hp') is-invalid @enderror" id="exampleInputEmail1" placeholder="no_hp" value="{{ old('no_hp', $siswa->no_hp) }}"
-            name="no_hp">
+            <label for="exampleInputEmail1">Level</label>
+            <input type="text" class="form-control @error('level') is-invalid @enderror" id="exampleInputEmail1" placeholder="level" value="{{ old('level', $user->level) }}"
+            name="level">
         </div>
-        @error('no_hp')
+        @error('level')
             <span class="text-danger">{{ $message }}</span>
         @enderror
 
@@ -56,7 +56,7 @@
     <div class="card-footer">
         <div class="row">
             <div class="col-6">
-                <a class="btn btn-danger" href="{{ route('siswa.index') }}"> Back</a>
+                <a class="btn btn-danger" href="{{ route('user.index') }}"> Back</a>
             </div>
             <div class="col-6" style="text-align: end">
                 <button type="submit" class="btn btn-primary">Submit</button>
