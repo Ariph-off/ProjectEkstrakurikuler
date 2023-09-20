@@ -102,7 +102,7 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
             <div class="service-item position-relative">
               <img src="{{asset('portal')}}/assets/img/sepak bola/soccer.png" width="100px" height="100px" line-right="50px">
-              <h4><a href="" class="stretched-link">Penjaga Gawang atau Kiper </a></h4>
+              <h4><a href="" class="stretched-link">Penjaga Gawang</a></h4>
               <p>Penjaga gawang, atau sering disebut Kiper (dalam sepak bola) adalah salah satu posisi dalam tim sepak bola. Tugas dari seorang kiper adalah mencegah masuknya bola kedalam gawang.
               </p>
             </div>
@@ -254,7 +254,7 @@
 
         <div class="section-header">
           <h2>Portfolio</h2>
-          <p>Non hic nulla eum consequatur maxime ut vero memo vero totam officiis pariatur eos dolorum sed fug dolorem est possimus esse quae repudiandae. Dolorem id enim officiis sunt deserunt esse soluta consequatur quaerat</p>
+          <p>Galeri Sepak Bola SMKN 1 Bondowoso adalah tempat yang menampilkan berbagai pencapaian dan aktivitas Sepak bola di sekolah tersebut. Dengan koleksi foto, perlengkapan, dan dokumentasi penting, galeri ini berfungsi untuk mempromosikan nilai-nilai Sepak Bola, menginspirasi siswa-siswi lainnya untuk bergabung.</p>
         </div>
 
       </div>
