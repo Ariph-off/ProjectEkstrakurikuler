@@ -12,17 +12,9 @@
     </div> -->
 
     <!-- /.card-header -->
-    <form class="form-inline">
-        <div class="form-group">
-            <form action="/pelatih" method="get">
-                <input type="search" id="inputPassword6" name="search" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
-                <button class="btn btn-outline-secondary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-        </div>
-    </form>
 
     <div class="card-body">
-        <table id="example2" class="table table-bordered table-hover">
+        <table id="example1" class="table table-bordered table-hover">
             <thead>
                 <tr>
                     <th>ID</th>
