@@ -102,8 +102,8 @@
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
             <div class="service-item position-relative">
               <img src="{{asset('portal')}}/assets/img/sepak bola/soccer.png" width="100px" height="100px" line-right="50px">
-              <h4><a href="" class="stretched-link">Penjaga Gawang</a></h4>
-              <p>Penjaga gawang, atau sering disebut Kiper (dalam sepak bola) adalah salah satu posisi dalam tim sepak bola. Tugas dari seorang kiper adalah mencegah masuknya bola kedalam gawang.
+              <h4><a href="" class="stretched-link">Kiper</a></h4>
+              <p>Kiper (dalam sepak bola) adalah salah satu posisi dalam tim sepak bola. Tugas dari seorang kiper adalah mencegah masuknya bola kedalam gawang.
               </p>
             </div>
           </div><!-- End Service Item -->
@@ -198,7 +198,7 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
                     <i class="bi bi-question-circle question-icon"></i>
-                    mengapa sepak bola membutuhkan pemain bertahan ?
+                    mengapa sepak bola membutuhkan pemain bertahan?
                   </button>
                 </h3>
                 <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
