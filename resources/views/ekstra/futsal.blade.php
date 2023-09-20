@@ -90,7 +90,7 @@
 
         <div class="row gy-4">
 
-          <h2 align="center">Posisi Pemain Futsal</h2>
+          <h2 align="center">Posisi Pemain </h2>
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
             <div class="service-item position-relative">
