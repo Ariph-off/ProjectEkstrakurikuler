@@ -11,6 +11,7 @@ class LoginController extends Controller
     public function index()
     {
         return view('auth.login');
+        // echo "<h1>". Auth::user()->name ."</h1>";
     }
 
 

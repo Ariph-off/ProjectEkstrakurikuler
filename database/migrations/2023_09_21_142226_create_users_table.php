@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->enum('role', ['admin', 'bultangkis','voly','Hadra', 'Drumb_Band', 'Pramuka','Pmr','Panahan','Sepak_Bola','Tari','Futsal','Band_Musik','Remas','Silat','Bulutangkis'])->default('admin');
+            $table->enum('role', ['admin', 'bultangkis','voly','Hadra','basket', 'Drumb_Band', 'Pramuka','Pmr','Panahan','Sepak_Bola','Tari','Futsal','Band_Musik','Remas','Silat','Bulutangkis'])->default('admin');
             $table->rememberToken();
             $table->softDeletes();
             $table->timestamps();
@@ -35,7 +35,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->enum('role', ['admin', 'bultangkis','voly','Hadra', 'Drumb_Band', 'Pramuka','Pmr','Panahan','Sepak_Bola','Tari','Futsal','Band_Musik','Remas','Silat','Bulutangkis'])->default('admin');
+            $table->enum('role', ['admin', 'bultangkis','voly','Hadra','basket', 'Drumb_Band', 'Pramuka','Pmr','Panahan','Sepak_Bola','Tari','Futsal','Band_Musik','Remas','Silat','Bulutangkis'])->default('admin');
             $table->rememberToken();
             $table->softDeletes();
             $table->timestamps();

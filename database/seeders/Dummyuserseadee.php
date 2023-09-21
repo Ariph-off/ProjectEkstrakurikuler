@@ -21,12 +21,6 @@ class Dummyuserseadee extends Seeder
                 'password'=>bcrypt(123456)
             ],
             [
-                'name'=>'bulitangkis',
-                'email'=>'bulitangkis@gmail.com',
-                'role'=>'bulitangkis',
-                'password'=>bcrypt(123456)
-            ],
-            [
                 'name'=>'voly',
                 'email'=>'voly@gmail.com',
                 'role'=>'voly',
@@ -42,6 +36,12 @@ class Dummyuserseadee extends Seeder
                 'name'=>'Drumb_Band',
                 'email'=>'Drumb_Band@gmail.com',
                 'role'=>'Drumb_Band',
+                'password'=>bcrypt(123456)
+            ],
+            [
+                'name'=>'basket',
+                'email'=>'basket@gmail.com',
+                'role'=>'basket',
                 'password'=>bcrypt(123456)
             ],
             [

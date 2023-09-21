@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admincontroller;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PelatihController;
@@ -9,10 +10,7 @@ use App\Http\Controllers\PembinaController;
 use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\UsersController;
 use App\Http\Controllers\KategoriController;
-
-
-
-
+use App\Http\Controllers\Sesicontroller;
 use App\Models\Pembina;
 use App\Models\Siswa;
 
@@ -28,9 +26,7 @@ use App\Models\Siswa;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 Route::get('/landing', function () {
     return view('frontend/landing');
 });
@@ -110,14 +106,43 @@ Route::resource('kategori', KategoriController::class);
 
 
 
-Route::get('/admin', function () {
-    return view('backend/home');
-});
-Route::get('/login', [LoginController::class, 'index'])->name('login');
+// Route::get('/admin', function () {
+//     return view('backend/home');
+// });
+// Route::get('/login', [LoginController::class, 'index'])->name('login');
 // route::POST('/login-proses', [LoginController::class, 'login_proses'])->name('login-proses');
 // Route::get("/backend-home", [LoginController::class, 'backendHome']);
 // // Route::post("doLogin", [LoginController::class, 'login_proses']);
-Route::post('doLogin', function () {
-    return view('backend.home');
+// Route::post('doLogin', function () {
+//     return view('backend.home');
+// });
+// Route::get('/logout',[LoginController::class,'logout'])->name('logout');
+//multiuser
+Route::middleware(['guest'])->group(function(){
+    Route::get('/',[Sesicontroller::class, 'index'])->name('login');
+    Route::post('/',[Sesicontroller::class, 'login']);
 });
-Route::get('/logout',[LoginController::class,'logout'])->name('logout');
+Route::get('/home',function(){
+    return redirect('/admin');
+});
+
+Route::middleware(['auth'])->group(function(){
+    Route::get('/admin',[Admincontroller::class,'index']);
+    Route::get('/admin/admin',[Admincontroller::class,'admin'])->middleware('userakses:admin');
+    Route::get('/admin/voly',[Admincontroller::class,'voly'])->middleware('userakses:voly');
+    Route::get('/admin/Pramuka',[Admincontroller::class,'Pramuka'])->middleware('userakses:Pramuka');
+    Route::get('/admin/Drumb_Band',[Admincontroller::class,'Drumb_Band'])->middleware('userakses:Drumb_Band');
+    Route::get('/admin/basket',[Admincontroller::class,'basket'])->middleware('userakses:basket');
+    Route::get('/admin/Hadra',[Admincontroller::class,'Hadra'])->middleware('userakses:Hadra');
+    Route::get('/admin/Pmr',[Admincontroller::class,'Pmr'])->middleware('userakses:Pmr');
+    Route::get('/admin/Panahan',[Admincontroller::class,'Panahan'])->middleware('userakses:Panahan');
+    Route::get('/admin/Sepak_Bola',[Admincontroller::class,'Sepak_Bola'])->middleware('userakses:Sepak_Bola');
+    Route::get('/admin/Tari',[Admincontroller::class,'Tari'])->middleware('userakses:Tari');
+    Route::get('/admin/Futsal',[Admincontroller::class,'Futsal'])->middleware('userakses:Futsal');
+    Route::get('/admin/Band_Musik',[Admincontroller::class,'Band_Musik'])->middleware('userakses:Band_Musik');
+    Route::get('/admin/Remas',[Admincontroller::class,'Remas'])->middleware('userakses:Remas');
+    Route::get('/adminSilat',[Admincontroller::class,'Silat'])->middleware('userakses:Silat');
+    Route::get('/admin/Bulutangkis',[Admincontroller::class,'Bulutangkis '])->middleware('userakses:Bulutangkis');
+    Route::get('/logout', [Sesicontroller::class,'logout']);
+
+});
