@@ -90,7 +90,7 @@
 
         <div class="row gy-4">
 
-          <h2 align="center">Posisi Pemain Futsal</h2>
+          <h2 align="center">Posisi Pemain </h2>
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
             <div class="service-item position-relative">
@@ -176,7 +176,7 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Sejarah awal futsal dari mana?
+                    Sejarah awal futsal Gimana?
                   </button>
                 </h3>
                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
@@ -260,7 +260,7 @@
 
         <div class="section-header">
           <h2>Galeri</h2>
-          <p>Ini adalah foto futsal</p>
+          <p>Ini adalah foto-foto atau galeri-galeri Ekstrakurikuler futsal</p>
         </div>
 
       </div>
@@ -270,7 +270,7 @@
         <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
 
           <ul class="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter="*" class="filter-active">Semua</li>
             <li data-filter=".filter-app">1</li>
             <li data-filter=".filter-product">2</li>
             <li data-filter=".filter-branding">3</li>
