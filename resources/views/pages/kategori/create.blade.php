@@ -4,56 +4,37 @@
 <br>        
 <div class="card card-primary">
     <div class="card-header">
-        <h3 class="card-title">Create Detail Pesanan</h3>
+        <h3 class="card-title">Create Kategori</h3>
     </div>
-    <form action="{{ route('pelatih.store') }}" method="POST">
+    <form action="{{ route('kategori.store') }}" method="POST">
         @csrf
 
 
         <div class="card-body">
         <div class="form-group">
-            <label for="exampleInputEmail1">Nama Pelatih</label>
-            <input type="text" class="form-control @error('nama_pelatih') is-invalid @enderror" id="exampleInputEmail1" placeholder="nama_pelatih" value="{{ old('nama_pelatih') }}"
-            name="nama_pelatih">
+            <label for="exampleInputEmail1">Kategori Pelatih</label>
+            <input type="text" class="form-control @error('nama_kategori') is-invalid @enderror" id="exampleInputEmail1" placeholder="nama_kategori" value="{{ old('nama_kategori') }}"
+            name="nama_kategori">
         </div>
-        @error('nama_pelatih')
+        @error('nama_kategori')
             <span class="text-danger">{{ $message }}</span>
         @enderror
 
         <div class="form-group">
-            <label for="exampleInputEmail1">Id Ekstra</label>
-            <input type="text" class="form-control @error('id_ekstra') is-invalid @enderror" id="exampleInputEmail1" placeholder="id_ekstra" value="{{ old('id_ekstra') }}"
-            name="id_ekstra">
+            <label for="exampleInputEmail1">Keterangan</label>
+            <input type="text" class="form-control @error('keterangan') is-invalid @enderror" id="exampleInputEmail1" placeholder="keterangan" value="{{ old('keterangan') }}"
+            name="keterangan">
         </div>
-        @error('id_ekstra')
+        @error('keterangan')
             <span class="text-danger">{{ $message }}</span>
         @enderror
-
-        <div class="form-group">
-            <label for="exampleInputEmail1">No Hp</label>
-            <input type="text" class="form-control @error('no_ho') is-invalid @enderror" id="exampleInputEmail1" placeholder="no_ho" value="{{ old('no_ho') }}"
-            name="no_ho">
-        </div>
-        @error('no_ho')
-            <span class="text-danger">{{ $message }}</span>
-        @enderror
-
-        <div class="form-group">
-            <label for="exampleInputEmail1">Alamat</label>
-            <input type="text" class="form-control @error('alamat') is-invalid @enderror" id="exampleInputEmail1" placeholder="alamat" value="{{ old('alamat') }}"
-            name="alamat">
-        </div>
-        @error('alamat')
-            <span class="text-danger">{{ $message }}</span>
-        @enderror
-
 
     </div>
 
     <div class="card-footer">
         <div class="row">
             <div class="col-6">
-                <a class="btn btn-danger" href="{{ route('pelatih.index') }}"> Back</a>
+                <a class="btn btn-danger" href="{{ route('kategori.index') }}"> Back</a>
             </div>
             <div class="col-6" style="text-align: end">
                 <button type="submit" class="btn btn-primary">Submit</button>

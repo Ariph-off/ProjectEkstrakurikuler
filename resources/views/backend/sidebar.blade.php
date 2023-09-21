@@ -16,7 +16,7 @@
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="{{ route('ekstra.create') }}">Ekstra</a>
                         <a class="dropdown-item" href="{{ route('pembina.create') }}">Pembina</a>
-                        
+                        <a class="dropdown-item" href="{{ route('kategori.create') }}">Kategori</a>
                         <a class="dropdown-item" href="{{ route('pelatih.create') }}">Pelatih</a>
                         <a class="dropdown-item" href="{{ route('siswa.create') }}">Siswa</a>
                         <a class="dropdown-item" href="#">Transaksi</a>

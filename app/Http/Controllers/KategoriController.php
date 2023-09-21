@@ -28,7 +28,8 @@ class KategoriController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.kategori.create');
+        
     }
 
     /**
@@ -36,7 +37,18 @@ class KategoriController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'nama_kategori' => 'required|unique:kategori,nama_kategori',
+            'keterangan' => 'required',
+        ]);
+     
+
+        $kategori = new Kategori();
+        $kategori->nama_kategori = $validatedData['nama_kategori'];
+        $kategori->keterangan = $validatedData['keterangan'];
+        $kategori->save();
+
+        return redirect()->route('kategori.index')->with('success', 'User has been created!');
     }
 
     /**
@@ -66,8 +78,10 @@ class KategoriController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Kategori $kategori)
     {
-        //
+        $kategori->delete();
+
+        return redirect('/ekstra')->with('success', 'User has been deleted!');
     }
 }
