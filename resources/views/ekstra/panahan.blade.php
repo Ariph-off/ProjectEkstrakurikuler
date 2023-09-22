@@ -143,7 +143,7 @@
 
           <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
             <div class="img">
-              <img src="{{asset('portal')}}/assets/img/panahan/gambar3.jpg" alt="" class="img-fluid">
+              <img src="{{asset('portal')}}/assets/img/panahan/panah1.jpg" alt="" class="img-fluid">
             </div>
           </div>
 
@@ -299,10 +299,10 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
-              <img src="{{asset('portal')}}/assets/img/panahan/panahan.jpg" class="img-fluid" alt="">
+              <img src="{{asset('portal')}}/assets/img/panahan/panah.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Branding 1</h4>
-                <a href="{{asset('portal')}}/assets/img/panahan/panahan.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="{{asset('portal')}}/assets/img/panahan/panah.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -364,7 +364,7 @@
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
-                <img src="{{asset('portal')}}/assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              <img src="{{asset('portal')}}/assets/img/panahan/wakil.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
                 <div class="social">
@@ -374,7 +374,7 @@
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Dhesti febriana purwiningih</h4>
-                <span>Sekretaris</span>
+                <span>WAKIL</span>
               </div>
             </div>
           </div><!-- End Team Member -->
