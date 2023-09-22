@@ -125,7 +125,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">
+              <a href="/logout" onclick="return confirm('Apakah anda yakin ingin logout?')" class="nav-link">
                 <i class=" nav-icon fas fa-sharp fa-regular fa-right-from-bracket"></i>
                 <p>logout</p>
               </a>
