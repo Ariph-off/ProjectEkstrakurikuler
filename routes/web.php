@@ -106,25 +106,26 @@ Route::resource('kategori', KategoriController::class);
 
 
 
-// Route::get('/admin', function () {
-//     return view('backend/home');
-// });
-// Route::get('/login', [LoginController::class, 'index'])->name('login');
-// route::POST('/login-proses', [LoginController::class, 'login_proses'])->name('login-proses');
-// Route::get("/backend-home", [LoginController::class, 'backendHome']);
-// // Route::post("doLogin", [LoginController::class, 'login_proses']);
-// Route::post('doLogin', function () {
-//     return view('backend.home');
-// });
-// Route::get('/logout',[LoginController::class,'logout'])->name('logout');
-//multiuser
+Route::get('/admin', function () {
+    return view('backend/home');
+});
+Route::get('/login', [LoginController::class, 'index'])->name('login');
+route::POST('/login-proses', [LoginController::class, 'login_proses'])->name('login-proses');
+Route::get("/backend-home", [LoginController::class, 'backendHome']);
+// Route::post("doLogin", [LoginController::class, 'login_proses']);
+Route::post('doLogin', function () {
+    return view('backend.home');
+});
+Route::get('/logout',[LoginController::class,'logout'])->name('logout');
+
 Route::middleware(['guest'])->group(function(){
-    Route::get('/',[Sesicontroller::class, 'index'])->name('login');
+    Route::get('/',[Sesicontroller::class, 'index']);
     Route::post('/',[Sesicontroller::class, 'login']);
 });
 Route::get('/home',function(){
     return redirect('/admin');
 });
+
 
 Route::middleware(['auth'])->group(function(){
     Route::get('/admin',[Admincontroller::class,'index']);
