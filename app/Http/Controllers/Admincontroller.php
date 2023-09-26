@@ -12,9 +12,10 @@ class Admincontroller extends Controller
         return view('back-ekstra.index');
     }
     function index(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('backend.home');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function admin(){
         return view('backend.home');
