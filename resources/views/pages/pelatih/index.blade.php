@@ -22,7 +22,9 @@
                     <th>Ekstra</th>
                     <th>No HP</th>
                     <th>Alamat</th>
+                    @if (auth()->user()->role=="admin")
                     <th>Action</th>
+                    @endif
                 </tr>
             </thead>
             <tbody>
@@ -33,6 +35,7 @@
                     <td>{{ $pelatihs->id_ekstra }}</td>
                     <td>{{ $pelatihs->no_hp }}</td>
                     <td>{{ $pelatihs->alamat }}</td>
+                    @if (auth()->user()->role=="admin")
                     <td>
                         <!-- <a href="" class="btn btn-success"><i class="fas fa-pen-nib"></i>Edit</a>
                                 <a href="" class="btn btn-danger"><i class="fas fa-trash"></i>Delete</a> -->
@@ -43,6 +46,7 @@
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></button>
                         </form>
                     </td>
+                    @endif
                 </tr>
                 @endforeach
             </tbody>

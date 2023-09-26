@@ -20,7 +20,9 @@
                     <th>ID</th>
                     <th>Nama Ekstra</th>
                     <th>Kategori</th>
+                    @if (auth()->user()->role=="admin")
                     <th>Action</th>
+                    @endif
                 </tr>
             </thead>
             <tbody>
@@ -29,7 +31,7 @@
                     <td>{{ $loop->iteration }}</td>
                     <td>{{ $ekstras->nama_ekstra }}</td>
                     <td>{{ $ekstras->id_kategori }}</td>
-
+                    @if (auth()->user()->role=="admin")
                     <td>
                         <form action="{{ route('ekstra.destroy', $ekstras->id) }}" method="POST">
                             <a class="btn btn-success" href="{{ route('ekstra.edit', $ekstras->id) }}"><i class="fas fa-pen-nib"></i></a>
@@ -38,6 +40,7 @@
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></button>
                         </form>
                     </td>
+                    @endif
                 </tr>
                 @endforeach
             </tbody>

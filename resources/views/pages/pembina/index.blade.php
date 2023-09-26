@@ -22,7 +22,9 @@
                     <th>Ekstra</th>
                     <th>No HP</th>
                     <th>Alamat</th>
+                    @if (auth()->user()->role=="admin")
                     <th>Action</th>
+                    @endif
                 </tr>
             </thead>
             <tbody>
@@ -33,6 +35,7 @@
                     <td>{{ $pembinas->id_ekstra }}</td>
                     <td>{{ $pembinas->no_hp }}</td>
                     <td>{{ $pembinas->alamat }}</td>
+                    @if (auth()->user()->role=="admin")
                     <td>
                         <form action="{{ route('pembina.destroy', $pembinas->id) }}" method="POST">
                             <a class="btn btn-success" href="{{ route('pembina.edit', $pembinas->id) }}"><i class="fas fa-pen-nib"></i></a>
@@ -41,6 +44,7 @@
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></button>
                         </form>
                     </td>
+                    @endif
                 </tr>
                 @endforeach
             </tbody>

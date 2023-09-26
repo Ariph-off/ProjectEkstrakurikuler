@@ -20,7 +20,9 @@
                     <th>ID</th>
                     <th>Kategori</th>
                     <th>keterangan</th>
+                    @if (auth()->user()->role=="admin")
                     <th>Action</th>
+                    @endif
                 </tr>
             </thead>
             <tbody>
@@ -29,6 +31,7 @@
                     <td>{{ $loop->iteration }}</td>
                     <td>{{ $kategoris->nama_kategori }}</td>
                     <td>{{ $kategoris->keterangan }}</td>
+                    @if (auth()->user()->role=="admin")
                     <td>
                         <form action="{{ route('kategori.destroy', $kategoris->id) }}" method="POST">
                             <a class="btn btn-success" href="{{ route('kategori.edit', $kategoris->id) }}"><i class="fas fa-pen-nib"></i></a>
@@ -37,6 +40,7 @@
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></button>
                         </form>
                     </td>
+                    @endif
                 </tr>
                 @endforeach
             </tbody>

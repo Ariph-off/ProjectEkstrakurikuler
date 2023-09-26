@@ -22,7 +22,9 @@
                     <th>Email</th>
                     <th>Password</th>
                     <th>Level</th>
+                    @if (auth()->user()->role=="admin")
                     <th>Action</th>
+                    @endif
                 </tr>
             </thead>
             <tbody>
@@ -33,6 +35,7 @@
                     <td>{{ $users->email }}</td>
                     <td>{{ $users->password }}</td>
                     <td>{{ $users->level }}</td>
+                    @if (auth()->user()->role=="admin")
                     <td>
                         <form action="{{ route('user.destroy', $users->id) }}" method="POST">
                             <a class="btn btn-success" href="{{ route('user.edit', $users->id) }}"><i class="fas fa-pen-nib"></i></a>
@@ -41,6 +44,7 @@
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></button>
                         </form>
                     </td>
+                    @endif
                 </tr>
                 @endforeach
             </tbody>

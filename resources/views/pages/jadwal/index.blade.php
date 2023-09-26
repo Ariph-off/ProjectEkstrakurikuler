@@ -21,7 +21,9 @@
                     <th>Hari</th>
                     <th>Tanggal</th>
                     <th>Jam</th>
+                    @if (auth()->user()->role=="admin")
                     <th>Action</th>
+                    @endif
 
                 </tr>
             </thead>
@@ -32,6 +34,7 @@
                     <td>{{ $jadwals->hari }}</td>
                     <td>{{ $jadwals->tanggal }}</td>
                     <td>{{ $jadwals->jam }}</td>
+                    @if (auth()->user()->role=="admin")
                     <td>
                         <form action="{{ route('jadwal.destroy', $jadwals->id) }}" method="POST">
                             <a class="btn btn-success" href="{{ route('jadwal.edit', $jadwals->id) }}"><i class="fas fa-pen-nib"></i></a>
@@ -40,6 +43,7 @@
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></button>
                         </form>
                     </td>
+                    @endif
                 </tr>
                 @endforeach
             </tbody>

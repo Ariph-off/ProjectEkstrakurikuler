@@ -116,13 +116,14 @@
                                 <p>Jadwal</p>
                             </a>
                         </li>
+                        @if (auth()->user()->role=="admin")
                         <li class="nav-item">
                             <a href="{{route ('user.index') }}" class="nav-link">
                                 <i class="nav-icon fas fa-user"></i>
                                 <p>User</p>
                             </a>
                         </li>
-
+                        @endif
                         <li class="nav-item">
                             <a href="/logout" onclick="return confirm('Apakah anda yakin ingin logout?')" class="nav-link">
                                 <i class=" nav-icon fas fa-sharp fa-regular fa-right-from-bracket"></i>

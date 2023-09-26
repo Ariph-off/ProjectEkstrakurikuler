@@ -22,7 +22,9 @@
                     <th>Kelas</th>
                     <th>NISN</th>
                     <th>No HP</th>
+                    @if (auth()->user()->role=="admin")
                     <th>Action</th>
+                    @endif
                 </tr>
             </thead>
             <tbody>
@@ -33,6 +35,7 @@
                     <td>{{ $siswas->id_kelas }}</td>
                     <td>{{ $siswas->nisn }}</td>
                     <td>{{ $siswas->no_hp }}</td>
+                    @if (auth()->user()->role=="admin")
                     <td>
                         <form action="{{ route('siswa.destroy', $siswas->id) }}" method="POST">
                             <a class="btn btn-success" href="{{ route('siswa.edit', $siswas->id) }}"><i class="fas fa-pen-nib"></i></a>
@@ -41,6 +44,7 @@
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></button>
                         </form>
                     </td>
+                    @endif
                 </tr>
                 @endforeach
             </tbody>
