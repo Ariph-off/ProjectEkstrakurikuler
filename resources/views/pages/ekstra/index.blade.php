@@ -29,6 +29,7 @@
                     <td>{{ $loop->iteration }}</td>
                     <td>{{ $ekstras->nama_ekstra }}</td>
                     <td>{{ $ekstras->id_kategori }}</td>
+
                     <td>
                         <form action="{{ route('ekstra.destroy', $ekstras->id) }}" method="POST">
                             <a class="btn btn-success" href="{{ route('ekstra.edit', $ekstras->id) }}"><i class="fas fa-pen-nib"></i></a>

@@ -8,6 +8,9 @@ use Illuminate\Support\Facades\Auth;
 
 class Admincontroller extends Controller
 {
+    function coba(){
+        return view('back-ekstra.index');
+    }
     function index(){
         echo "login succes";
         echo "<h1>". Auth::user()->name."</h1>";
@@ -17,24 +20,28 @@ class Admincontroller extends Controller
         return view('backend.home');
     }
     function voly(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('back-ekstra.index');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function Pramuka(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('back-ekstra.index');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function Drumb_Band(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('back-ekstra.index');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function basket(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('back-ekstra.index');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function Hadra(){
         echo "login succes";
@@ -47,43 +54,50 @@ class Admincontroller extends Controller
         echo "<a href='/logout'>logout>></a>";
     }
     function Panahan(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function Sepak_Bola(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('back-ekstra.index');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function Tari(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('back-ekstra.index');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function Futsal(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('back-ekstra.index');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function Band_Musik(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('back-ekstra.index');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function Remas(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('back-ekstra.index');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function Silat(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('back-ekstra.index');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function Bulutangkis(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('back-ekstra.index');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
 }

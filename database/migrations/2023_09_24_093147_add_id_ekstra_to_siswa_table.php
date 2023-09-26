@@ -11,14 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('siswa', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('nama_siswa');
-            $table->integer('id_kelas');
-            $table->integer('nisn');
-            $table->char('no_hp');
-            $table->softDeletes();
-            $table->timestamps();
+        Schema::table('siswa', function (Blueprint $table) {
+            $table->unsignedInteger('id_ekstra');
+            $table->foreign('id_ekstra')->references('id')->on('ekstra');
         });
     }
 
@@ -27,6 +22,9 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('siswa');
+        Schema::table('siswa', function (Blueprint $table) {
+            $table->dropForeign('siswa_id_ekstra_foreign');
+            $table->dropColumn('id_ekstra');
+        });
     }
 };

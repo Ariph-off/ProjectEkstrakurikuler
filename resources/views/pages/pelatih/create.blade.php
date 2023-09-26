@@ -1,7 +1,7 @@
 @extends('backend/panel')
 @section('content')
 
-<br>        
+<br>
 <div class="card card-primary">
     <div class="card-header">
         <h3 class="card-title">Create Detail Pesanan</h3>
@@ -31,10 +31,10 @@
 
         <div class="form-group">
             <label for="exampleInputEmail1">No Hp</label>
-            <input type="text" class="form-control @error('no_ho') is-invalid @enderror" id="exampleInputEmail1" placeholder="no_ho" value="{{ old('no_ho') }}"
-            name="no_ho">
+            <input type="text" class="form-control @error('no_hp') is-invalid @enderror" id="exampleInputEmail1" placeholder="no_hp" value="{{ old('no_hp') }}"
+            name="no_hp">
         </div>
-        @error('no_ho')
+        @error('no_hp')
             <span class="text-danger">{{ $message }}</span>
         @enderror
 
@@ -63,6 +63,6 @@
 
     </form>
 </div>
-        
+
 
 @endsection

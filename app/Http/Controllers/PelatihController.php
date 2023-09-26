@@ -45,15 +45,15 @@ class PelatihController extends Controller
         $validatedData = $request->validate([
             'nama_pelatih' => 'required|unique:pelatih,nama_pelatih',
             'id_ekstra' => 'required',
-            'no_ho' => 'required|unique:pelatih,no_ho',
+            'no_hp' => 'required|unique:pelatih,no_hp',
             'alamat' => 'required',
         ]);
-     
+
 
         $pelatih = new Pelatih();
         $pelatih->nama_pelatih = $validatedData['nama_pelatih'];
         $pelatih->id_ekstra = $validatedData['id_ekstra'];
-        $pelatih->no_ho = $validatedData['no_ho'];
+        $pelatih->no_hp = $validatedData['no_hp'];
         $pelatih->alamat = $validatedData['alamat'];
         $pelatih->save();
 
@@ -85,7 +85,7 @@ class PelatihController extends Controller
         $validatedData = $request->validate([
             'nama_pelatih' => 'required',
             'id_ekstra' => 'required',
-            'no_ho' => 'required',
+            'no_hp' => 'required',
             'alamat' => 'required',
         ]);
 
@@ -93,9 +93,9 @@ class PelatihController extends Controller
         $pelatih = Pelatih::find($pelatih->id);
         $pelatih->nama_pelatih = $request->nama_pelatih;
         $pelatih->id_ekstra = $request->id_ekstra;
-        $pelatih->no_ho = $request->no_ho;
+        $pelatih->no_hp = $request->no_hp;
         $pelatih->alamat = $request->alamat;
-        
+
         $pelatih->save();
 
         return redirect('/pelatih')->with('success', 'User has been updated!');

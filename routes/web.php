@@ -146,3 +146,10 @@ Route::middleware(['auth'])->group(function(){
     Route::get('/logout', [Sesicontroller::class,'logout']);
 
 });
+
+Route::get('/ppp',[Admincontroller::class,'coba']);
+
+// Route::get('/landing', function () {
+//     return view('frontend/landing');
+// });
+

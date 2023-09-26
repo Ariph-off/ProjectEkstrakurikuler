@@ -15,7 +15,7 @@ return new class extends Migration
             $table->increments('id');
             $table->string('nama_pembina');
             $table->integer('id_nama');
-            $table->integer('no_hp');
+            $table->char('no_hp');
             $table->string('alamat');
             $table->softDeletes();
             $table->timestamps();

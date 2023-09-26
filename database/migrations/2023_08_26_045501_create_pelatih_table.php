@@ -15,7 +15,7 @@ return new class extends Migration
             $table->increments('id');
             $table->string('nama_pelatih');
             $table->integer('id_ekstra');
-            $table->integer('no_ho');
+            $table->char('no_hp');
             $table->string('alamat');
             $table->softDeletes();
             $table->timestamps();

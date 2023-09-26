@@ -31,7 +31,7 @@
                     <td>{{ $loop->iteration }}</td>
                     <td>{{ $pelatihs->nama_pelatih }}</td>
                     <td>{{ $pelatihs->id_ekstra }}</td>
-                    <td>{{ $pelatihs->no_ho }}</td>
+                    <td>{{ $pelatihs->no_hp }}</td>
                     <td>{{ $pelatihs->alamat }}</td>
                     <td>
                         <!-- <a href="" class="btn btn-success"><i class="fas fa-pen-nib"></i>Edit</a>
