@@ -2,71 +2,94 @@
 
 @section('content')
 <!-- Main content -->
-<br><section class="content">
+<br>
+<section class="content">
     <div class="container-fluid">
-        <!-- Small boxes (Stat box) -->
+        <!-- Info boxes -->
         <div class="row">
-            <div class="col-lg-3 col-6">
-                <!-- small box -->
-                <div class="small-box bg-info">
-                    <div class="inner">
-                        <h3>150</h3>
-
-                        <p>New Orders</p>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="info-box">
+                    <span class="info-box-icon btn btn-outline-secondary elevation-1"><a href="{{route ('ekstra.index') }}"><i class="fas fa-ranking-star"></i></a></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">Data Ekstra</span>
+                        <span class="info-box-number">
+                            <h3></h3>
+                        </span>
                     </div>
-                    <div class="icon">
-                        <i class="ion ion-bag"></i>
-                    </div>
-                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    <!-- /.info-box-content -->
                 </div>
+                <!-- /.info-box -->
             </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-                <!-- small box -->
-                <div class="small-box bg-success">
-                    <div class="inner">
-                        <h3>53<sup style="font-size: 20px">%</sup></h3>
+            <!-- /.col -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="info-box mb-3">
+                    <span class="info-box-icon btn btn-outline-secondary elevation-1"><a href="{{route ('pembina.index') }}"><i class="fas fa-users-rectangle"></i></a></span>
 
-                        <p>Bounce Rate</p>
+                    <div class="info-box-content">
+                        <span class="info-box-text">Data Pembina</span>
+                        <span class="info-box-number">
+                            <h3></h3>
+                        </span>
                     </div>
-                    <div class="icon">
-                        <i class="ion ion-stats-bars"></i>
-                    </div>
-                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    <!-- /.info-box-content -->
                 </div>
+                <!-- /.info-box -->
             </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-                <!-- small box -->
-                <div class="small-box bg-warning">
-                    <div class="inner">
-                        <h3>44</h3>
+            <!-- /.col -->
 
-                        <p>User Registrations</p>
-                    </div>
-                    <div class="icon">
-                        <i class="ion ion-person-add"></i>
-                    </div>
-                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-                </div>
-            </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-                <!-- small box -->
-                <div class="small-box bg-danger">
-                    <div class="inner">
-                        <h3>65</h3>
+            <!-- fix for small devices only -->
+            <div class="clearfix hidden-md-up"></div>
 
-                        <p>Unique Visitors</p>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="info-box mb-3">
+                    <span class="info-box-icon btn btn-outline-secondary elevation-1"><a href="{{route ('pelatih.index') }}"><i class="fas fa-users-rays"></i></a></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Data Pelatih</span>
+                        <span class="info-box-number">
+                            <h3></h3>
+                        </span>
                     </div>
-                    <div class="icon">
-                        <i class="ion ion-pie-graph"></i>
-                    </div>
-                    <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    <!-- /.info-box-content -->
                 </div>
+                <!-- /.info-box -->
             </div>
-            <!-- ./col -->
+            <!-- /.col -->
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="info-box mb-3">
+                    <span class="info-box-icon btn btn-outline-secondary elevation-1"><a href="{{route ('siswa.index') }}"><i class="fas fa-users-line"></i></a></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Data Siswa</span>
+                        <span class="info-box-number">
+                            <h3></h3>
+                        </span>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="info-box mb-3">
+                    <span class="info-box-icon btn btn-outline-secondary elevation-1"><a href="{{route ('kategori.index') }}"><i class="fas fa-users-line"></i></a></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Data Kategori</span>
+                        <span class="info-box-number">
+                            <h3></h3>
+                        </span>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+
         </div>
+        <!-- /.row -->
+
     </div>
 </section>
 
