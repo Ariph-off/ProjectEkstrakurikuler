@@ -139,7 +139,7 @@
 
                     <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
                         <h3>Apa pengertian <em>band music</em></h3>
-                        <p> Grup musik atau dikenal juga dengan sebutan kelompok musik merupakan kumpulan yang terdiri atas dua atau lebih musisi yang memainkan alat musik ataupun bernyanyi. </p>
+                        <p> Band musik atau dikenal juga dengan sebutan kelompok musik merupakan kumpulan yang terdiri atas dua atau lebih musisi yang memainkan alat musik ataupun bernyanyi. </p>
                     </div>
 
                     <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
@@ -165,9 +165,10 @@
                     <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
                         <div class="content px-xl-5">
-                            <h3>Pertanyaan yang Sering Diajukan<strong>Questions</strong></h3>
+                            <h3>Pertanyaan yang Sering Diajukan<strong> <br>tentang band music</strong></h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                            Pengertian band adalah sekelompok orang yang satu aluran musik yang mempunyai satu cita-cita untuk berkarya dengan membentuk kelompok musik. Band terdiri dari berbagai jenis, contohnya band indie.
+Istilah band indie sering kali kita dengar sebagai band yang mandiri yang tidak terkukung pada keinginan pasar untuk menentukan warna musik mereka, Perdebatan tentang pengertian band ini sering kali terjadi diantara para pengamat music, namun pastinya pengertian band indie secara umum berarti gerakan bermusik yang berbasis dari apa yang kita punya. Dan biasanya karya-karya musik mereka diluar mainstream yang tengah berlaku, dimana biasanya mainstream berarti arus utama, tempat di mana band-band yang bernaung di bawah label besar, sebuah industri yang mapan.
                             </p>
                         </div>
 
@@ -238,7 +239,7 @@
 
                     </div>
 
-                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("{{asset('portal')}}/assets/img/band/faq.jpg");'>&nbsp;</div>
+                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("{{asset('portal')}}/assets/img/band/band1.png");'>&nbsp;</div>
                 </div>
 
             </div>
