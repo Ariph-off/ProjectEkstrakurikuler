@@ -20,82 +20,85 @@ class Admincontroller extends Controller
         return view('backend.home');
     }
     function voly(){
-        return view('back-ekstra.index');
+        return view('backend.home');
         // echo "login succes";
         // echo "<h1>". Auth::user()->name."</h1>";
         // echo "<a href='/logout'>logout>></a>";
     }
     function Pramuka(){
-        return view('back-ekstra.index');
+        return view('backend.home');
         // echo "login succes";
         // echo "<h1>". Auth::user()->name."</h1>";
         // echo "<a href='/logout'>logout>></a>";
     }
     function Drumb_Band(){
-        return view('back-ekstra.index');
+        return view('backend.home');
         // echo "login succes";
         // echo "<h1>". Auth::user()->name."</h1>";
         // echo "<a href='/logout'>logout>></a>";
     }
     function basket(){
-        return view('back-ekstra.index');
+        return view('backend.home');
         // echo "login succes";
         // echo "<h1>". Auth::user()->name."</h1>";
         // echo "<a href='/logout'>logout>></a>";
     }
     function Hadra(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('backend.home');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function Pmr(){
-        echo "login succes";
-        echo "<h1>". Auth::user()->name."</h1>";
-        echo "<a href='/logout'>logout>></a>";
+        return view('backend.home');
+        // echo "login succes";
+        // echo "<h1>". Auth::user()->name."</h1>";
+        // echo "<a href='/logout'>logout>></a>";
     }
     function Panahan(){
+        return view('backend.home');
         // echo "login succes";
         // echo "<h1>". Auth::user()->name."</h1>";
         // echo "<a href='/logout'>logout>></a>";
     }
     function Sepak_Bola(){
-        return view('back-ekstra.index');
+        return view('backend.home');
         // echo "login succes";
         // echo "<h1>". Auth::user()->name."</h1>";
         // echo "<a href='/logout'>logout>></a>";
     }
     function Tari(){
-        return view('back-ekstra.index');
+        return view('backend.home');
         // echo "login succes";
         // echo "<h1>". Auth::user()->name."</h1>";
         // echo "<a href='/logout'>logout>></a>";
     }
     function Futsal(){
-        return view('back-ekstra.index');
+        return view('backend.home');
         // echo "login succes";
         // echo "<h1>". Auth::user()->name."</h1>";
         // echo "<a href='/logout'>logout>></a>";
     }
     function Band_Musik(){
-        return view('back-ekstra.index');
+        return view('backend.home');
         // echo "login succes";
         // echo "<h1>". Auth::user()->name."</h1>";
         // echo "<a href='/logout'>logout>></a>";
     }
     function Remas(){
-        return view('back-ekstra.index');
+        return view('backend.home');
         // echo "login succes";
         // echo "<h1>". Auth::user()->name."</h1>";
         // echo "<a href='/logout'>logout>></a>";
     }
     function Silat(){
-        return view('back-ekstra.index');
+        return view('backend.home');
         // echo "login succes";
         // echo "<h1>". Auth::user()->name."</h1>";
         // echo "<a href='/logout'>logout>></a>";
     }
     function Bulutangkis(){
-        return view('back-ekstra.index');
+        return view('backend.home');
         // echo "login succes";
         // echo "<h1>". Auth::user()->name."</h1>";
         // echo "<a href='/logout'>logout>></a>";
