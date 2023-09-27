@@ -80,6 +80,7 @@
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                         <li class="nav-item menu-open">
+                        @if (auth()->user()->role=="admin")
                         <li class="nav-item">
                             <a href="{{route ('ekstra.index') }}" class="nav-link">
                                 <i class="nav-icon fas fa-sharp fa-regular fa-ranking-star"></i>
@@ -98,18 +99,21 @@
                                 <p>Pelatih</p>
                             </a>
                         </li>
+                        @endif
                         <li class="nav-item">
                             <a href="{{route ('siswa.index') }}" class="nav-link">
                                 <i class="nav-icon fas fa-sharp fa-regular fa-users-line"></i>
                                 <p>Siswa</p>
                             </a>
                         </li>
+                        @if (auth()->user()->role=="admin")
                         <li class="nav-item">
                             <a href="{{route ('kategori.index') }}" class="nav-link">
                                 <i class="nav-icon fas fa-sharp fa-regular fa-users-line"></i>
                                 <p>Kategori</p>
                             </a>
                         </li>
+                        @endif
                         <li class="nav-item">
                             <a href="{{route ('jadwal.index') }}" class="nav-link">
                                 <i class="nav-icon fas fa-sharp fa-light fa-calendar"></i>
