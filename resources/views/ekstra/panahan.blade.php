@@ -356,7 +356,7 @@
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Triana Heri W</h4>
-                <span>ketua</span>
+                <span>pembina</span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -374,7 +374,7 @@
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Dhesti febriana purwiningih</h4>
-                <span>WAKIL</span>
+                <span>wakil</span>
               </div>
             </div>
           </div><!-- End Team Member -->

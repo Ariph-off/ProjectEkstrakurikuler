@@ -239,7 +239,7 @@ Istilah band indie sering kali kita dengar sebagai band yang mandiri yang tidak 
 
                     </div>
 
-                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("{{asset('portal')}}/assets/img/band/band1.png");'>&nbsp;</div>
+                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("{{asset('portal')}}/assets/img/band/band1.png ");'>&nbsp;</div>
                 </div>
 
             </div>
