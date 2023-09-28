@@ -110,7 +110,7 @@ Route::get('/admin', function () {
     return view('backend/home');
 });
 Route::get('/login', [LoginController::class, 'index'])->name('login');
-route::POST('/login-proses', [LoginController::class, 'login_proses'])->name('login-proses');
+route::post('/login', [LoginController::class, 'login_proses'])->name('login-proses');
 Route::get("/backend-home", [LoginController::class, 'backendHome']);
 // Route::post("doLogin", [LoginController::class, 'login_proses']);
 Route::post('doLogin', function () {

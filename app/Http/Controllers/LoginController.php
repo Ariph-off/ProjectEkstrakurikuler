@@ -17,7 +17,6 @@ class LoginController extends Controller
 
     public function login_proses(Request $request)
     {
-        dd($request->all());
 
 
         $request->validate([
