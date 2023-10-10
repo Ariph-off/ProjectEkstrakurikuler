@@ -97,7 +97,7 @@
             <div class="service-item position-relative">
               <img src="{{asset('portal')}}/assets/img/pencaksilat/ikon1.png" width="100px" height="100px" line-right="50px">
               <h4><a href="" class="stretched-link">PSHT</a></h4>
-              <p>Persaudaraan Setia Hati Terate (dikenal luas sebagai PSHT atau SH Terate) adalah organisasi olahraga yang diinisiasi oleh Ki Hadjar Hardjo Oetomo pada tahun 1922 dan kemudian disepakati namanya menjadi Persaudaraan Setia Hati Terate pada kongres pertamanya di Madiun pada tahun 1948.</p>
+              <p>Persaudaraan Setia Hati Terate adalah organisasi olahraga yang diinisiasi oleh Ki Hadjar Hardjo Oetomo pada tahun 1922 dan kemudian disepakati namanya menjadi Persaudaraan Setia Hati Terate pada kongres pertamanya di Madiun pada tahun 1948.</p>
             </div>
           </div><!-- End Service Item -->
 
