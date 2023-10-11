@@ -263,9 +263,9 @@ Istilah band indie sering kali kita dengar sebagai band yang mandiri yang tidak 
 
                     <ul class="portfolio-flters">
                         <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-product">Product</li>
-                        <li data-filter=".filter-branding">Branding</li>
+                        <li data-filter=".filter-app">1</li>
+                        <li data-filter=".filter-product">2</li>
+                        <li data-filter=".filter-branding">3</li>
                         <li data-filter=".filter-books">Books</li>
                     </ul><!-- End Portfolio Filters -->
 
@@ -400,7 +400,7 @@ Istilah band indie sering kali kita dengar sebagai band yang mandiri yang tidak 
                     <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
                         <div class="team-member">
                             <div class="member-img">
-                                <img src="{{asset('portal')}}/assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                                 <img src="{{ asset ('portal') }}/assets/img/team/team-3.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
                                 <div class="social">
@@ -409,8 +409,8 @@ Istilah band indie sering kali kita dengar sebagai band yang mandiri yang tidak 
                                     <a href=""><i class="bi bi-instagram"></i></a>
                                     <a href=""><i class="bi bi-linkedin"></i></a>
                                 </div>
-                                <h4>Walter White</h4>
-                                <span>Katua</span>
+                                <h4>AW.Hendro P.W., S.Sn</h4>
+                                <span>pembina</span>
                             </div>
                         </div>
                     </div><!-- End Team Member -->
@@ -418,7 +418,7 @@ Istilah band indie sering kali kita dengar sebagai band yang mandiri yang tidak 
                     <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
                         <div class="team-member">
                             <div class="member-img">
-                                <img src="{{asset('portal')}}/assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                            <img src="{{ asset ('portal') }}/assets/img/team/team-3.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
                                 <div class="social">
@@ -436,7 +436,7 @@ Istilah band indie sering kali kita dengar sebagai band yang mandiri yang tidak 
                     <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
                         <div class="team-member">
                             <div class="member-img">
-                                <img src="{{asset('portal')}}/assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                            <img src="{{ asset ('portal') }}/assets/img/team/team-3.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
                                 <div class="social">
@@ -449,7 +449,8 @@ Istilah band indie sering kali kita dengar sebagai band yang mandiri yang tidak 
                                 <span>Bendahara</span>
                             </div>
                         </div>
-                    </div><!-- End Team Member -->
+                    </div>
+                    <!-- End Team Member -->
 
                 </div>
 
