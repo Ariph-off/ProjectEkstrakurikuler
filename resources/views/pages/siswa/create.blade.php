@@ -44,6 +44,14 @@
         @error('no_hp')
             <span class="text-danger">{{ $message }}</span>
         @enderror
+        <div class="form-group">
+            <label for="exampleInputEmail1">eksra</label>
+            <input type="text" class="form-control @error('id_ekstra') is-invalid @enderror" id="exampleInputEmail1" placeholder="id_ekstra" value="{{ old('id_ekstra') }}"
+            name="id_ekstra">
+        </div>
+        @error('id_ekstra')
+            <span class="text-danger">{{ $message }}</span>
+        @enderror
 
    
 

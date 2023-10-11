@@ -22,6 +22,7 @@
                     <th>Kelas</th>
                     <th>NISN</th>
                     <th>No HP</th>
+                    <th>Ekstra</th>
                     @if (auth()->user()->role=="admin")
                     <th>Action</th>
                     @endif
@@ -35,6 +36,7 @@
                     <td>{{ $siswas->id_kelas }}</td>
                     <td>{{ $siswas->nisn }}</td>
                     <td>{{ $siswas->no_hp }}</td>
+                    <td>{{ $siswas->id_ekstra }}</td>
                     @if (auth()->user()->role=="admin")
                     <td>
                         <form action="{{ route('siswa.destroy', $siswas->id) }}" method="POST">

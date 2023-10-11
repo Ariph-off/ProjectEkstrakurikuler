@@ -14,7 +14,7 @@
                     <div class="info-box-content">
                         <span class="info-box-text">Data Ekstra</span>
                         <span class="info-box-number">
-                            <h3>{{$total_ekstra}}</h3>
+                            <h3></h3>
                         </span>
                     </div>
                     <!-- /.info-box-content -->

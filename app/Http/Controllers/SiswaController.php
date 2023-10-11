@@ -36,6 +36,7 @@ class SiswaController extends Controller
     public function store(Request $request)
     {
         $validatedData = $request->validate([
+            'id_ekstra' => 'required|unique:siswa,id_ekstra',
             'nama_siswa' => 'required|unique:siswa,nama_siswa',
             'id_kelas' => 'required',
             'nisn' => 'required|unique:siswa,nisn',
@@ -44,6 +45,7 @@ class SiswaController extends Controller
 
 
         $siswa = new Siswa();
+        $siswa->id_ekstra = $validatedData['id_ekstra'];
         $siswa->nama_siswa = $validatedData['nama_siswa'];
         $siswa->id_kelas = $validatedData['id_kelas'];
         $siswa->nisn = $validatedData['nisn'];
@@ -76,6 +78,7 @@ class SiswaController extends Controller
     public function update(Request $request, Siswa $siswa)
     {
         $validatedData = $request->validate([
+            'id_ekstra' => 'required',
             'nama_siswa' => 'required',
             'id_kelas' => 'required',
             'nisn' => 'required',
@@ -84,6 +87,7 @@ class SiswaController extends Controller
 
         // Pelatih::whereservice($pelatih)->update($validatedData);
         $siswa = Siswa::find($siswa->id);
+        $siswa->id_ekstra = $request->id_ekstra;
         $siswa->nama_siswa = $request->nama_siswa;
         $siswa->id_kelas = $request->id_kelas;
         $siswa->nisn = $request->nisn;
