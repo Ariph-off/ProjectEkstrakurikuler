@@ -266,7 +266,7 @@ Istilah band indie sering kali kita dengar sebagai band yang mandiri yang tidak 
                         <li data-filter=".filter-app">1</li>
                         <li data-filter=".filter-product">2</li>
                         <li data-filter=".filter-branding">3</li>
-                        <li data-filter=".filter-books">Books</li>
+                        <li data-filter=".filter-books">4</li>
                     </ul><!-- End Portfolio Filters -->
 
                     <div class="row g-0 portfolio-container">
@@ -392,7 +392,7 @@ Istilah band indie sering kali kita dengar sebagai band yang mandiri yang tidak 
 
                 <div class="section-header">
                     <h2>Struktur</h2>
-                    <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
+                    <p>di bawah ini merupakan pengurus dari ekstra band.</p>
                 </div>
 
                 <div class="row gy-5">
