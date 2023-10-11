@@ -283,7 +283,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
               <img src="{{asset('portal')}}/assets/img/panahan/pa.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
+                <h4>foto 1</h4>
                 <a href="{{asset('portal')}}/assets/img/panahan/pa.jpg" title="App 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
@@ -292,7 +292,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
               <img src="{{asset('portal')}}/assets/img/panahan/eskul.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Product 1</h4>
+                <h4>foto 2</h4>
                 <a href="{{asset('portal')}}/assets/img/panahan/eskul.jpg" title="Product 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
@@ -301,7 +301,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
               <img src="{{asset('portal')}}/assets/img/panahan/panah.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Branding 1</h4>
+                <h4>foto 3</h4>
                 <a href="{{asset('portal')}}/assets/img/panahan/panah.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
@@ -310,7 +310,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
               <img src="{{asset('portal')}}/assets/img/panahan/pa.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Books 1</h4>
+                <h4>foto 1</h4>
                 <a href="{{asset('portal')}}/assets/img/panahan/pa.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
@@ -319,7 +319,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
               <img src="{{asset('portal')}}/assets/img/panahan/pa.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Books 1</h4>
+                <h4>foto 1</h4>
                 <a href="{{asset('portal')}}/assets/img/panahan/pa.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
