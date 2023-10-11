@@ -12,17 +12,21 @@ class Admincontroller extends Controller
     function coba(){
         return view('back-ekstra.index');
     }
-    function index(){
-        return view('backend.home');
+    function admin(){
+        $data = [
+            'total_ekstra'=>DB::table('ekstra')->count(),
+            'total_pembina'=>DB::table('pembina')->count(),
+            'total_pelatih'=>DB::table('pelatih')->count(),
+            'total_kategori'=>DB::table('kategori')->count(),
+            'total_siswa'=>DB::table('siswa')->count(),
+        ];
+        return view('backend.home',$data);
+
         // echo "login succes";
         // echo "<h1>". Auth::user()->name."</h1>";
         // echo "<a href='/logout'>logout>></a>";
     }
-    function admin(){
-        $total_ekstra = DB::table('ekstra')->count();
-        // dd($total_ekstra);
-        return view('backend.home',compact(('total_ekstra')));
-    }
+
     function voly(){
         return view('backend.home');
         // echo "login succes";

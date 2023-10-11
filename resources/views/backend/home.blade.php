@@ -14,7 +14,7 @@
                     <div class="info-box-content">
                         <span class="info-box-text">Data Ekstra</span>
                         <span class="info-box-number">
-                            <h3></h3>
+                            <h3>{{$total_ekstra}}</h3>
                         </span>
                     </div>
                     <!-- /.info-box-content -->
@@ -28,7 +28,7 @@
                     <div class="info-box-content">
                         <span class="info-box-text">Data Pembina</span>
                         <span class="info-box-number">
-                            <h3></h3>
+                            <h3>{{$total_pembina}}</h3>
                         </span>
                     </div>
                     <!-- /.info-box-content -->
@@ -47,7 +47,7 @@
                     <div class="info-box-content">
                         <span class="info-box-text">Data Pelatih</span>
                         <span class="info-box-number">
-                            <h3></h3>
+                            <h3>{{$total_pelatih}}</h3>
                         </span>
                     </div>
                     <!-- /.info-box-content -->
@@ -97,7 +97,7 @@
                     <div class="info-box-content">
                         <span class="info-box-text">Data Kategori</span>
                         <span class="info-box-number">
-                            <h3></h3>
+                            <h3>{{$total_kategori}}</h3>
                         </span>
                     </div>
                     <!-- /.info-box-content -->

@@ -128,8 +128,8 @@ Route::get('/home',function(){
 
 
 Route::middleware(['auth'])->group(function(){
-    Route::get('/admin',[Admincontroller::class,'index']);
-    Route::get('/admin/admin',[Admincontroller::class,'admin'])->middleware('userakses:admin');
+    // Route::get('/admin',[Admincontroller::class,'index']);
+    Route::get('/admin',[Admincontroller::class,'admin'])->middleware('userakses:admin');
     Route::get('/admin/voly',[Admincontroller::class,'voly'])->middleware('userakses:voly');
     Route::get('/admin/Pramuka',[Admincontroller::class,'Pramuka'])->middleware('userakses:Pramuka');
     Route::get('/admin/Drumb_Band',[Admincontroller::class,'Drumb_Band'])->middleware('userakses:Drumb_Band');
