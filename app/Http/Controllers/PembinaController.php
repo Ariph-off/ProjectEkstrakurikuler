@@ -16,11 +16,11 @@ class PembinaController extends Controller
     public function index(Request $request)
     {
         if($request->has('search')){
-            $pembina = Pembina::where('nama_pembina','LIKE','%' .$request->search.'%')->paginate(5);
+            $pembina = Pembina::where('nama_pembina','LIKE','%' .$request->search.'%')->get();
         }else{
-            $pembina = Pembina::paginate(5);
+            $pembina = Pembina::get();
         }
-        
+
         return view('pages.pembina.index', ['pembina' => $pembina]);
     }
 
@@ -32,7 +32,7 @@ class PembinaController extends Controller
         $ekstra = Ekstra::get();
 
         return view('pages.pembina.create', ['ekstra' => $ekstra]);
-        
+
     }
 
     /**
@@ -46,7 +46,7 @@ class PembinaController extends Controller
             'no_hp' => 'required|unique:pembina,no_hp',
             'alamat' => 'required',
         ]);
-     
+
 
         $pembina = new Pembina();
         $pembina->nama_pembina = $validatedData['nama_pembina'];
@@ -93,7 +93,7 @@ class PembinaController extends Controller
         $pembina->id_ekstra = $request->id_ekstra;
         $pembina->no_hp = $request->no_hp;
         $pembina->alamat = $request->alamat;
-        
+
         $pembina->save();
 
         return redirect('/pembina')->with('success', 'User has been updated!');

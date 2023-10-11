@@ -37,7 +37,7 @@
                             <a class="btn btn-success" href="{{ route('ekstra.edit', $ekstras->id) }}"><i class="fas fa-pen-nib"></i></a>
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></button>
+                            <a type="submit" class="btn btn-danger"><i class="fas fa-trash" onclick="return confirm('Apakah anda yakin ingin menghapus data?')"></i></a>
                         </form>
                     </td>
                     @endif

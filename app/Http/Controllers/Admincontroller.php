@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use DB;
 
 class Admincontroller extends Controller
 {
@@ -18,7 +19,9 @@ class Admincontroller extends Controller
         // echo "<a href='/logout'>logout>></a>";
     }
     function admin(){
-        return view('backend.home');
+        $total_ekstra = DB::table('ekstra')->count();
+        // dd($total_ekstra);
+        return view('backend.home',compact(('total_ekstra')));
     }
     function voly(){
         return view('backend.home');

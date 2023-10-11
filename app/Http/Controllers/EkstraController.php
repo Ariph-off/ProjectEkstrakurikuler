@@ -13,9 +13,9 @@ class EkstraController extends Controller
     public function index(Request $request)
     {
         if($request->has('search')){
-            $ekstra = Ekstra::where('nama_ekstra','LIKE','%' .$request->search.'%')->paginate(5);
+            $ekstra = Ekstra::where('nama_ekstra','LIKE','%' .$request->search.'%')->get();
         }else{
-            $ekstra = Ekstra::paginate(5);
+            $ekstra = Ekstra::get();
         }
         // $pelatih = DB::table("pelatih")->get();
         // $dataToView = [
@@ -45,7 +45,7 @@ class EkstraController extends Controller
             'nama_ekstra' => 'required|unique:ekstra,nama_ekstra',
             'id_kategori' => 'required',
         ]);
-     
+
 
         $ekstra = new Ekstra();
         $ekstra->nama_ekstra = $validatedData['nama_ekstra'];

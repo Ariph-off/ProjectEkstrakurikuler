@@ -13,11 +13,11 @@ class SiswaController extends Controller
     public function index(Request $request)
     {
         if($request->has('search')){
-            $siswa = Siswa::where('nama_siswa','LIKE','%' .$request->search.'%')->paginate(5);
+            $siswa = Siswa::where('nama_siswa','LIKE','%' .$request->search.'%')->get();
         }else{
-            $siswa = Siswa::paginate(5);
+            $siswa = Siswa::get();
         }
-        
+
         return view('pages.siswa.index', ['siswa' => $siswa]);
     }
 
@@ -27,7 +27,7 @@ class SiswaController extends Controller
     public function create()
     {
         return view('pages.siswa.create');
-        
+
     }
 
     /**
@@ -41,7 +41,7 @@ class SiswaController extends Controller
             'nisn' => 'required|unique:siswa,nisn',
             'no_hp' => 'required',
         ]);
-     
+
 
         $siswa = new Siswa();
         $siswa->nama_siswa = $validatedData['nama_siswa'];
@@ -88,7 +88,7 @@ class SiswaController extends Controller
         $siswa->id_kelas = $request->id_kelas;
         $siswa->nisn = $request->nisn;
         $siswa->no_hp = $request->no_hp;
-        
+
         $siswa->save();
 
         return redirect('/siswa')->with('success', 'User has been updated!');

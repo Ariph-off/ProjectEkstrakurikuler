@@ -7,13 +7,14 @@
     <div class="container-fluid">
         <!-- Info boxes -->
         <div class="row">
+        @if (auth()->user()->role=="admin")
             <div class="col-12 col-sm-6 col-md-4">
                 <div class="info-box">
                     <span class="info-box-icon btn btn-outline-secondary elevation-1"><a href="{{route ('ekstra.index') }}"><i class="fas fa-ranking-star"></i></a></span>
                     <div class="info-box-content">
                         <span class="info-box-text">Data Ekstra</span>
                         <span class="info-box-number">
-                            <h3></h3>
+                            <h3>{{$total_ekstra}}</h3>
                         </span>
                     </div>
                     <!-- /.info-box-content -->
@@ -24,7 +25,6 @@
             <div class="col-12 col-sm-6 col-md-4">
                 <div class="info-box mb-3">
                     <span class="info-box-icon btn btn-outline-secondary elevation-1"><a href="{{route ('pembina.index') }}"><i class="fas fa-users-rectangle"></i></a></span>
-
                     <div class="info-box-content">
                         <span class="info-box-text">Data Pembina</span>
                         <span class="info-box-number">
@@ -55,6 +55,7 @@
                 <!-- /.info-box -->
             </div>
             <!-- /.col -->
+            @endif
 
             <div class="col-12 col-sm-6 col-md-4">
                 <div class="info-box mb-3">
@@ -71,6 +72,24 @@
                 <!-- /.info-box -->
             </div>
             <!-- /.col -->
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="info-box mb-3">
+                    <span class="info-box-icon btn btn-outline-secondary elevation-1"><a href="{{route ('jadwal.index') }}"><i class="fas fa-book"></i></a></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Jadwal</span>
+                        <span class="info-box-number">
+                            <h3></h3>
+                        </span>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+
+            @if (auth()->user()->role=="admin")
             <div class="col-12 col-sm-6 col-md-4">
                 <div class="info-box mb-3">
                     <span class="info-box-icon btn btn-outline-secondary elevation-1"><a href="{{route ('kategori.index') }}"><i class="fas fa-users-line"></i></a></span>
@@ -86,6 +105,7 @@
                 <!-- /.info-box -->
             </div>
             <!-- /.col -->
+            @endif
 
         </div>
         <!-- /.row -->
@@ -93,4 +113,4 @@
     </div>
 </section>
 
-  @endsection
+@endsection

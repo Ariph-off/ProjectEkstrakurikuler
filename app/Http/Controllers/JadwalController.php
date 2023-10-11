@@ -13,11 +13,11 @@ class JadwalController extends Controller
     public function index(Request $request)
     {
         if($request->has('search')){
-            $jadwal = Jadwal::where('hari','LIKE','%' .$request->search.'%')->paginate(5);
+            $jadwal = Jadwal::where('hari','LIKE','%' .$request->search.'%')->get();
         }else{
-            $jadwal = Jadwal::paginate(5);
+            $jadwal = Jadwal::get();
         }
-        
+
         return view('pages.jadwal.index', ['jadwal' => $jadwal]);
     }
 
@@ -27,7 +27,7 @@ class JadwalController extends Controller
     public function create()
     {
         return view('pages.jadwal.create');
-        
+
     }
 
     /**
@@ -41,7 +41,7 @@ class JadwalController extends Controller
             'jam' => 'required'
 
         ]);
-     
+
 
         $jadwal = new Jadwal();
         $jadwal->hari = $validatedData['hari'];

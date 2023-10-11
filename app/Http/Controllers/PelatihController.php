@@ -14,9 +14,9 @@ class PelatihController extends Controller
     public function index(Request $request)
     {
         if($request->has('search')){
-            $pelatih = Pelatih::where('nama_pelatih','LIKE','%' .$request->search.'%')->paginate(5);
+            $pelatih = Pelatih::where('nama_pelatih','LIKE','%' .$request->search.'%')->get();
         }else{
-            $pelatih = Pelatih::paginate(5);
+            $pelatih = Pelatih::get();
         }
         // $pelatih = DB::table("pelatih")->get();
         // $dataToView = [
