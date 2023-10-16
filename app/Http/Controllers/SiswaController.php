@@ -78,20 +78,20 @@ class SiswaController extends Controller
     public function update(Request $request, Siswa $siswa)
     {
         $validatedData = $request->validate([
-            'id_ekstra' => 'required',
             'nama_siswa' => 'required',
             'id_kelas' => 'required',
             'nisn' => 'required',
             'no_hp' => 'required',
+            'id_ekstra' => 'required',
         ]);
 
         // Pelatih::whereservice($pelatih)->update($validatedData);
-        $siswa = Siswa::find($siswa->id);
-        $siswa->id_ekstra = $request->id_ekstra;
+        $siswa = new Siswa();
         $siswa->nama_siswa = $request->nama_siswa;
         $siswa->id_kelas = $request->id_kelas;
         $siswa->nisn = $request->nisn;
         $siswa->no_hp = $request->no_hp;
+        $siswa->id_ekstra = $request->id_ekstra;
 
         $siswa->save();
 

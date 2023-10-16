@@ -17,7 +17,7 @@
         <table id="example1" class="table table-bordered table-hover">
             <thead>
                 <tr>
-                    <th>ID</th>
+                    <th>No</th>
                     <th>Nama Pembina</th>
                     <th>Kelas</th>
                     <th>NISN</th>

@@ -3,7 +3,6 @@
 @section('content')
     <!-- Content Wrapper. Contains page content -->
 
-        <div class="container">
 <br>
 <div class="card card-primary">
     <div class="card-header">
@@ -46,14 +45,5 @@
     </form>
 </div>
         
-        <!-- /.card-body -->
-    </div>
-    <!-- /.card -->
-    </section>
-    <!-- right col -->
-    </div>
-    <!-- /.row (main row) -->
-    </div><!-- /.container-fluid -->
-    </section>
-    <!-- /.content -->
+      
 @endsection

@@ -13,9 +13,9 @@ class UsersController extends Controller
     public function index(Request $request)
     {
         if($request->has('search')){
-            $user = User::where('name','LIKE','%' .$request->search.'%')->paginate(5);
+            $user = User::where('name','LIKE','%' .$request->search.'%')->get();
         }else{
-            $user = User::paginate(5);
+            $user = User::get();
         }
         
         return view('pages.user.index', ['user' => $user]);

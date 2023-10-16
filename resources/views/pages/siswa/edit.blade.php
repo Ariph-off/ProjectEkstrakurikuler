@@ -3,11 +3,10 @@
 @section('content')
     <!-- Content Wrapper. Contains page content -->
 
-        <div class="container">
 <br>
 <div class="card card-primary">
     <div class="card-header">
-        <h3 class="card-title">Edit Pelatih</h3>
+        <h3 class="card-title">Edit Siswa</h3>
     </div>
     <form action="{{ route('siswa.update', $siswa->id) }}" method="POST">
         @csrf
@@ -33,24 +32,31 @@
 
         <div class="form-group">
             <label for="exampleInputEmail1">Nisn</label>
-            <input type="text" class="form-control @error('nisn') is-invalid @enderror" id="exampleInputEmail1" placeholder="nisn" value="{{ old('nisn', $siswa->nisn) }}"
+            <input type="number" class="form-control @error('nisn') is-invalid @enderror" id="exampleInputEmail1" placeholder="nisn" value="{{ old('nisn', $siswa->nisn) }}"
             name="nisn">
         </div>
         @error('nisn')
             <span class="text-danger">{{ $message }}</span>
         @enderror
 
-
         <div class="form-group">
             <label for="exampleInputEmail1">No Hp</label>
-            <input type="text" class="form-control @error('no_hp') is-invalid @enderror" id="exampleInputEmail1" placeholder="no_hp" value="{{ old('no_hp', $siswa->no_hp) }}"
+            <input type="number" class="form-control @error('no_hp') is-invalid @enderror" id="exampleInputEmail1" placeholder="no_hp" value="{{ old('no_hp', $siswa->no_hp) }}"
             name="no_hp">
         </div>
         @error('no_hp')
             <span class="text-danger">{{ $message }}</span>
         @enderror
 
-      
+        <div class="form-group">
+            <label for="exampleInputEmail1">Ekstra</label>
+            <input type="number" class="form-control @error('id_ekstra') is-invalid @enderror" id="exampleInputEmail1" placeholder="id_ekstra" value="{{ old('id_ekstra', $siswa->id_ekstra) }}"
+            name="id_ekstra">
+        </div>
+        @error('id_ekstra')
+            <span class="text-danger">{{ $message }}</span>
+        @enderror
+
     </div>
 
     <div class="card-footer">
@@ -66,15 +72,9 @@
 
     </form>
 </div>
-        
-        <!-- /.card-body -->
-    </div>
-    <!-- /.card -->
-    </section>
-    <!-- right col -->
-    </div>
-    <!-- /.row (main row) -->
-    </div><!-- /.container-fluid -->
-    </section>
-    <!-- /.content -->
+       
 @endsection
+
+
+
+

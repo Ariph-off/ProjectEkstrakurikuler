@@ -92,7 +92,6 @@ Route::get('/band', function () {
 });
 
 
-
 Route::resource('pelatih', PelatihController::class);
 Route::resource('ekstra', EkstraController::class);
 Route::resource('pembina', PembinaController::class);
@@ -100,10 +99,6 @@ Route::resource('siswa', SiswaController::class);
 Route::resource('user', UsersController::class);
 Route::resource('jadwal', JadwalController::class);
 Route::resource('kategori', KategoriController::class);
-
-
-
-
 
 
 Route::get('/admin', function () {
@@ -148,9 +143,7 @@ Route::middleware(['auth'])->group(function(){
 
 });
 
-Route::get('/ppp',[Admincontroller::class,'coba']);
 
 // Route::get('/landing', function () {
 //     return view('frontend/landing');
 // });
-

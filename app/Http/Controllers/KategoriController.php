@@ -64,15 +64,29 @@ class KategoriController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $kategori = Kategori::find($id);
+        return view('pages.kategori.edit', ['kategori' => $kategori]);
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, Kategori $kategori)
     {
-        //
+        $validatedData = $request->validate([
+            'nama_kategori' => 'required',
+            'keterangan' => 'required',
+
+        ]);
+
+        // Pelatih::whereservice($pelatih)->update($validatedData);
+        $kategori = Kategori::find($kategori->id);
+        $kategori->nama_kategori = $request->nama_kategori;
+        $kategori->keterangan = $request->keterangan;
+
+        $kategori->save();
+
+        return redirect('/kategori')->with('success', 'User has been updated!');
     }
 
     /**
