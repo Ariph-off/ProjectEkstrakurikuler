@@ -4,7 +4,7 @@
 <br>
 <div class="card card-primary">
     <div class="card-header">
-        <h3 class="card-title">Create Detail Pesanan</h3>
+        <h3 class="card-title">Create Pelatih</h3>
     </div>
     <form action="{{ route('pelatih.store') }}" method="POST">
         @csrf

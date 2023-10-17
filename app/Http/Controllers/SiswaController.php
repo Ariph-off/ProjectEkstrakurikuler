@@ -86,7 +86,7 @@ class SiswaController extends Controller
         ]);
 
         // Pelatih::whereservice($pelatih)->update($validatedData);
-        $siswa = new Siswa();
+        $siswa = Siswa::find($siswa->id);
         $siswa->nama_siswa = $request->nama_siswa;
         $siswa->id_kelas = $request->id_kelas;
         $siswa->nisn = $request->nisn;

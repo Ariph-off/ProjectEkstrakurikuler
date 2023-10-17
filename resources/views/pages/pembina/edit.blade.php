@@ -6,7 +6,7 @@
 <br>
 <div class="card card-primary">
     <div class="card-header">
-        <h3 class="card-title">Edit Pelatih</h3>
+        <h3 class="card-title">Edit Pembina</h3>
     </div>
     <form action="{{ route('pembina.update', $pembina->id) }}" method="POST">
         @csrf
